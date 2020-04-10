@@ -39,7 +39,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 720px;
+  width: 630px;
   overflow: auto;
   white-space: nowrap;
 }
@@ -61,21 +61,21 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #323232;
+  background-color: #222222;
   color: white;
-width: 690px;
+width: 600px;
 }
 
 .modal-body {
   padding: 2px 16px;
-  width: 690px
+  width: 600px
   }
 
 .modal-footer {
   padding: 2px 16px;
   background-color: #e8e8e8;
   color: white;
-  width: 690px;
+  width: 600px;
 }
 </style>
 </head>
@@ -86,7 +86,7 @@ width: 690px;
 <!-- Trigger/Open The Modal -->
 <h4>
   <button id="myBtn"class="btn btn-square" >SIZE GUIDE <style> #myBtn{
-    background:#222222; color:white;  height:45px; width: 140px; font:;
+    background:#222222; color:white;  height:42px; width: 135px; font:;
     border: 0; /* change the outer  3-d border */ 
     box-shadow: 0; /* change the colour of the outer border*/
     border-radius: 0; /*change the button shape from square to circular </style> </button> 
@@ -101,169 +101,167 @@ width: 690px;
       <span class="close">&times;</span>
       <h2>SIZE GUIDE</h2>
     </div>
-    <div class="modal-body">
-      
-<p> Pants </p>      
+    <div class="modal-body">   
 
 
 <!–– Table ––>
-<p>
-<table width="688">
+<table style="height: 149px; width: 570px;" width="570">
 <tbody>
-<tr>
-<td width="190">
+<tr style="height: 30px;">
+<td style="width: 189px; height: 30px;" width="190">
 <p>WAIST (inches)</p>
 </td>
-<td width="66">
+<td style="width: 66px; height: 30px;" width="66">
 <p>28</p>
 </td>
-<td width="66">
-<p>29</p>
-</td>
-<td width="61">
+<td style="width: 63px; height: 30px;" width="61">
 <p>30</p>
 </td>
-<td width="61">
-<p>31</p>
-</td>
-<td width="61">
+<td style="width: 61px; height: 30px;" width="61">
 <p>32</p>
 </td>
-<td width="61">
-<p>33</p>
-</td>
-<td width="61">
+<td style="width: 61px; height: 30px;" width="61">
 <p>34</p>
 </td>
-<td width="63">
+<td style="width: 63px; height: 30px;" width="63">
 <p>36</p>
 </td>
 </tr>
-<tr>
-<td width="190">
+<tr style="height: 30px;">
+<td style="width: 189px; height: 30px;" width="190">
 <p>S / M / L</p>
 </td>
-<td width="66">
+<td style="width: 66px; height: 30px;" width="66">
 <p>XS</p>
 </td>
-<td width="66">
-<p>XS</p>
-</td>
-<td width="61">
+<td style="width: 63px; height: 30px;" width="61">
 <p>S</p>
 </td>
-<td width="61">
-<p>S</p>
-</td>
-<td width="61">
+<td style="width: 61px; height: 30px;" width="61">
 <p>M</p>
 </td>
-<td width="61">
-<p>M</p>
-</td>
-<td width="61">
+<td style="width: 61px; height: 30px;" width="61">
 <p>L</p>
 </td>
-<td width="63">
+<td style="width: 63px; height: 30px;" width="63">
 <p>XL</p>
 </td>
 </tr>
-<tr>
-<td width="190">
+<tr style="height: 29px;">
+<td style="width: 189px; height: 29px;" width="190">
 <p>Italy (IT)</p>
 </td>
-<td width="66">
+<td style="width: 66px; height: 29px;" width="66">
 <p>44</p>
 </td>
-<td width="66">
-<p>44</p>
-</td>
-<td width="61">
+<td style="width: 63px; height: 29px;" width="61">
 <p>46</p>
 </td>
-<td width="61">
-<p>46</p>
-</td>
-<td width="61">
+<td style="width: 61px; height: 29px;" width="61">
 <p>48</p>
 </td>
-<td width="61">
-<p>48</p>
-</td>
-<td width="61">
+<td style="width: 61px; height: 29px;" width="61">
 <p>50</p>
 </td>
-<td width="63">
+<td style="width: 63px; height: 29px;" width="63">
 <p>50</p>
 </td>
 </tr>
-<tr>
-<td width="190">
-<p>US</p>
-</td>
-<td width="66">
-<p>36</p>
-</td>
-<td width="66">
-<p>36</p>
-</td>
-<td width="61">
-<p>38</p>
-</td>
-<td width="61">
-<p>38</p>
-</td>
-<td width="61">
-<p>40</p>
-</td>
-<td width="61">
-<p>40</p>
-</td>
-<td width="61">
-<p>42</p>
-</td>
-<td width="63">
-<p>44</p>
-</td>
-</tr>
-<tr>
-<td width="190">
+<tr style="height: 30px;">
+<td style="width: 189px; height: 30px;" width="190">
 <p>France (FR)</p>
 </td>
-<td width="66">
+<td style="width: 66px; height: 30px;" width="66">
 <p>36</p>
 </td>
-<td width="66">
-<p>36</p>
-</td>
-<td width="61">
+<td style="width: 63px; height: 30px;" width="61">
 <p>38</p>
 </td>
-<td width="61">
-<p>38</p>
-</td>
-<td width="61">
+<td style="width: 61px; height: 30px;" width="61">
 <p>40</p>
 </td>
-<td width="61">
-<p>40</p>
-</td>
-<td width="61">
+<td style="width: 61px; height: 30px;" width="61">
 <p>42</p>
 </td>
-<td width="63">
+<td style="width: 63px; height: 30px;" width="63">
 <p>44</p>
 </td>
 </tr>
 </tbody>
 </table>
-</p>
+<hr />
+<table style="height: 149px; width: 570px;">
+<tbody>
+<tr style="height: 30px;">
+<td style="width: 197px; height: 30px;" width="190">
+<p>CHEST (inches)</p>
+</td>
+<td style="width: 60px; height: 30px;" width="66">
+<p>38</p>
+</td>
+<td style="width: 63px; height: 30px;" width="61">
+<p>40</p>
+</td>
+<td style="width: 61px; height: 30px;" width="61">
+<p>42</p>
+</td>
+<td style="width: 61px; height: 30px;" width="61">
+<p>44</p>
+</td>
+<td style="width: 63px; height: 30px;" width="63">
+<p>46</p>
+</td>
+</tr>
+<tr style="height: 30px;">
+<td style="width: 189px; height: 30px;" width="190">
+<p>S / M / L</p>
+</td>
+<td style="width: 66px; height: 30px;" width="66">
+<p>XS</p>
+</td>
+<td style="width: 63px; height: 30px;" width="61">
+<p>S</p>
+</td>
+<td style="width: 61px; height: 30px;" width="61">
+<p>M</p>
+</td>
+<td style="width: 61px; height: 30px;" width="61">
+<p>L</p>
+</td>
+<td style="width: 63px; height: 30px;" width="63">
+<p>XL</p>
+</td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 189px; height: 29px;" width="190">
+<p>Italy (IT)</p>
+</td>
+<td style="width: 66px; height: 29px;" width="66">48</td>
+<td style="width: 63px; height: 29px;" width="61">50</td>
+<td style="width: 61px; height: 29px;" width="61">52</td>
+<td style="width: 61px; height: 29px;" width="61">54</td>
+<td style="width: 63px; height: 29px;" width="63">56</td>
+</tr>
+<tr style="height: 30px;">
+<td style="width: 189px; height: 30px;" width="190">
+<p>France (FR)</p>
+</td>
+<td style="width: 66px; height: 30px;" width="66">48</td>
+<td style="width: 63px; height: 30px;" width="61">50</td>
+<td style="width: 61px; height: 30px;" width="61">52</td>
+<td style="width: 61px; height: 30px;" width="61">54</td>
+<td style="width: 63px; height: 30px;" width="63">56</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+      
 <!–– Table END ––>
 
 
     </div>
     <div class="modal-footer">
-      <h3><p>Size conversions vary and may not fully match the conversions shown above. <br />If you are not sure about your size, please contact us.</p></h3>
+      <h3><p>Size conversions vary and may not fully match these conversions. <br />If you are not sure about your size, please contact us.</p></h3>
     </div>
   </div>
 
