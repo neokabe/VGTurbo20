@@ -18,7 +18,7 @@ body {font-family: , Arial, Helvetica, sans-serif, 'DIN Condensed', 'DIN Condens
 
     h5 {
    font-family: 'DIN Condensed';
-   font-weight: 200;
+   font-weight: 400;
    font-style: normal;
    font-size: 1.2em;
    letter-spacing: .1em;
@@ -87,6 +87,53 @@ width: 600px;
   color: #222222;
   width: 600px;
 }
+
+.container {
+  position: relative;
+  width: 350px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: auto;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.container:hover .image {
+  opacity: 0.9;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color:;
+  color: #222222;
+  padding: 16px 16px;
+  opacity: 1;
+  font: 'DIN Condensed'; 
+  font-size:;
+  letter-spacing: .1em; 
+  font-weight: 400; 
+  font-style: normal;
+  line-height:;
+}
+
 </style>
 </head>
 <body>
@@ -94,11 +141,16 @@ width: 600px;
 
 
 <!-- Trigger/Open The Modal -->
-<h4>
 
-<img id="mypic" src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e8ce6309f434d0475a1e930/1586292305868/743+Clean+website.png" alt="image_here" style="width:100%;max-width:300px"><!-- image source -->
+<div class="container">
+  <img id="mypic" src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e8ce6309f434d0475a1e930/1586292305868/743+Clean+website.png" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">
+      <h5><p>DEC 2019</p></h5>
+      <h4><p>TURBO SHOOT BTS</p></h4></div>
+  </div>
+</div>
 
-</h4>
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
