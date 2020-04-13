@@ -78,7 +78,7 @@ width: 600px;
 
 .modal-body {
   padding: 2px 16px;
-  width: 600px
+  width: 600px;
   }
 
 .modal-footer {
