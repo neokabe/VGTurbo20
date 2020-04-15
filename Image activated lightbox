@@ -243,14 +243,29 @@ img {
 
 
 <!–– SlideShow ––>
-<div class="container">
-  <img class="mySlides" src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e925e34434baa2223ce2a2c/1586650721626/743+Clean+website+v3.png" alt=slide1 style="width:100%">
-      
-  <img class="mySlides" src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e9247ea434baa2223cae4a6/1586644972069/Turbo+BTS+11.jpg" style="width:100%">
-      
-  <img class="mySlides" src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e923f50be74603c92ce79d7/1586642811335/dan+astrid+tyre+edit+v1.png" style="width:100%">
-      
-  <img class="mySlides" src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e92530910408e119cb79e45/1586647913422/1+%2892%29+Darken+v2.png" style="width:100%">
+  <div class="container">
+
+	<div class=mySlides>
+  		<img  src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e925e34434baa2223ce2a2c/1586650721626/743+Clean+website+v3.png" style="width:100%">
+		<div class="overlay">Caption1</div>
+  	</div>
+
+
+  	<div class=mySlides>
+  		<img  src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e9247ea434baa2223cae4a6/1586644972069/Turbo+BTS+11.jpg" style="width:100%">
+  		<div class="overlay">Caption2</div>
+  	</div>
+
+  	<div class=mySlides>
+  		<img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e923f50be74603c92ce79d7/1586642811335/dan+astrid+tyre+edit+v1.png" style="width:100%">
+  		<div class="overlay">Caption3</div>
+  	</div>
+
+
+  	<div class=mySlides>
+  		<img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e92530910408e119cb79e45/1586647913422/1+%2892%29+Darken+v2.png" style="width:100%">
+  		<div class="overlay">Caption4</div>
+  	</div>
 
   <button class="prev" onclick="plusDivs(-1)">&#10094; </button>
   <button class="next" onclick="plusDivs(1)">&#10095;  <style> .button {padding: 16px;
@@ -277,8 +292,7 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
 }
 </script>
-<p>As the year came to an end, it’s only right that VG proudly <br/> showcased its new TURBO collection.<br/>Inspiration from Monaco’s Formula 1 Grand Prix <br/> the concept was birthed so behold...
-</p>
+<p>To end the year, it’s only right that VG proudly showcased <br/>the new TURBO collection.<br/>Influenced by Monaco’s Formula 1 Grand Prix</p>
 <!–– Slideshow END ––>
 
 
