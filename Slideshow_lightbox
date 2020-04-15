@@ -154,6 +154,23 @@ img {
   float: left;
   width: 25%;
 }
+/* create cation box over text and position it*/
+.overlay {
+	position: absolute;
+	top:30%; /*how far from the top of the image*/
+    Right:5%; /*how far from the right of the image*/
+	background:rgb(0,0,0);
+	background:rgba(0,0,0,0.75);/*transparency*/
+	width:30%;
+	opacity:10;
+	padding: 10px;
+	text-align: center;
+	color: white;
+    background-color: black; /*remove this to make it transparent grey*/
+	
+
+
+}
 <body>
 
 </style>
@@ -183,15 +200,39 @@ img {
 <!--SlideShow : replace image source-->
 
   <div class="container">
-  <img class="mySlides" src="img_snowtops.jpg" alt=slide1 style="width:100%">
-  <img class="mySlides" src="img_lights.jpg" style="width:100%">
-  <img class="mySlides" src="img_mountains.jpg" style="width:100%">
-  <img class="mySlides" src="img_forest.jpg" style="width:100%">
+
+	<div class=mySlides>
+  		<img  src="img_snowtops.jpg" style="width:100%">
+		<div class="overlay">Caption1</div>
+  	</div>
+
+
+  	<div class=mySlides>
+  		<img  src="img_lights.jpg" style="width:100%">
+  		<div class="overlay">Caption2</div>
+  	</div>
+
+  	<div class=mySlides>
+  		<img src="img_mountains.jpg" style="width:100%">
+  		<div class="overlay">Caption3</div>
+  	</div>
+
+
+  	<div class=mySlides>
+  		<img class="mySlides" src="img_forest.jpg" style="width:100%">
+  		<div class="overlay">Caption4</div>
+  	</div>
+
+
+
+
+
 
   <button class="prev" onclick="plusDivs(-1)">&#10094; </button>
   <button class="next" onclick="plusDivs(1)">&#10095;  <style> .button {padding: 16px;
   backgroung:black;
   float:left}</style></button>
+
 </div>
 
 <script>
