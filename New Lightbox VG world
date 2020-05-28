@@ -157,7 +157,7 @@ img.hover-shadow {
     <img src="img_mountains.jpg" style="width:100%" onclick="openModal3();currentSlide(1)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="img_lights.jpg" style="width:100%" onclick="openModal4();currentSlide(1)" class="hover-shadow cursor">
+    <img src="img_lights.jpg" style="width:100%" onclick="openModal4();currentSlide(2)" class="hover-shadow cursor">
   </div>
 </div>
 
@@ -172,18 +172,29 @@ img.hover-shadow {
     <div class="numbertext">4 / 4</div>
       <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecdad265060ad27ee75222b/1590537528279/DSCF2211+v4.jpg" style="width:100%">
     </div>
-	</div>
 
+    <div class="numbertext">4 / 4</div>
+   <img src= https://images.app.goo.gl/xaGcfhdmQp5eB6W87.jpg" style="width:100%">
 	
-<!-- <div id="myModal2" class="modal">
-<span class="close cursor" onclick="closeModal()">&times;</span>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  </div>
+	
+<div id="myModal2" class="modal">
+<span class="close cursor" onclick="closeModal2()">&times;</span>
     <div class="mySlides">
       <div class="numbertext">2 / 4</div>
       <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9ce45699191ae9bf1ac3/1590533424014/IMG_9611+v5.jpg" style="width:100%">
     </div>
+    <img src=https://images.app.goo.gl/iZ6ordF947c57HvV6.jpg" style="width:100%">
 	</div>
+  
 	
-<div id="myModal3" class="modal">
+<!-- <div id="myModal3" class="modal">
 <span class="close cursor" onclick="closeModal()">&times;</span>
     <div class="mySlides">
       <div class="numbertext">3 / 4</div>
