@@ -23,7 +23,7 @@ body {
 
 .column {
   float: left;
-  width: 25%;
+  width: 50%;
 }
 
 /* The Modal (background) */
@@ -37,7 +37,8 @@ body {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: black;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
 /* Modal Content */
@@ -45,19 +46,23 @@ body {
   position: relative;
   background-color: #fefefe;
   margin: auto;
-  padding: 0;
+  padding: 20px;
+  border: 1px solid #888;
   width: 90%;
   max-width: 1200px;
+  height: auto;
+  overflow: auto;
+  white-space: nowrap;
 }
 
 /* The Close Button */
 .close {
   color: white;
   position: absolute;
-  top: 10px;
+  top: 60px;
   right: 25px;
   font-size: 35px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .close:hover,
@@ -120,9 +125,9 @@ img {
 
 .caption-container {
   text-align: center;
-  background-color: black;
+  background-color: white;
   padding: 2px 16px;
-  color: white;
+  color: black;
 }
 
 .demo {
@@ -144,7 +149,7 @@ img.hover-shadow {
 </style>
 <body>
 
-<h2 style="text-align:center">Lightbox</h2>
+<h2 style="text-align:center"> </h2>
 <!--images -->
 <div class="row">
   <div class="column">
@@ -154,10 +159,10 @@ img.hover-shadow {
     <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd6ac29259ee3d450d64f3/1590520621513/IMG_9637+v7+website.png" style="width:100%" onclick="openModal2();currentSlide(4)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="https://images.pexels.com/photos/40904/bmw-k-1300-metallic-motorcycle-40904.jpeg?cs=srgb&dl=black-and-blue-sports-bike-40904.jpg&fm=jpg" style="width:100%" onclick="openModal3();currentSlide(3)" class="hover-shadow cursor">
+    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%" onclick="openModal3();currentSlide(3)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="https://images.pexels.com/photos/3875508/pexels-photo-3875508.jpeg?cs=srgb&dl=screen-of-modern-treadmill-against-black-background-3875508.jpg&fm=jpg" style="width:100%" onclick="openModal4();currentSlide(1)" class="hover-shadow cursor">
+    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%" onclick="openModal4();currentSlide(1)" class="hover-shadow cursor">
   </div>
 </div>
 
@@ -168,19 +173,25 @@ img.hover-shadow {
   <div class="modal-content">
 
     <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e923f50be74603c92ce79d7/1586642811335/dan+astrid+tyre+edit+v1.png" style="width:100%">
+      <div class="numbertext">TEXT HERE</div>
+      <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e925e34434baa2223ce2a2c/1586650721626/743+Clean+website+v3.png" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-      <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecdad265060ad27ee75222b/1590537528279/DSCF2211+v4.jpg" style="width:100%">
+      <div class="numbertext">TEXT HERE</div>
+      <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e9247ea434baa2223cae4a6/1586644972069/Turbo+BTS+11.jpg" style="width:100%">
     </div>
 
     <div class="mySlides">
-     <div class="numbertext">3 / 4</div>
-     <img src= "https://images.app.goo.gl/xaGcfhdmQp5eB6W87.jpg" style="width:100%">
+     <div class="numbertext">TEXT HERE</div>
+     <img src= "https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e923f50be74603c92ce79d7/1586642811335/dan+astrid+tyre+edit+v1.png" style="width:100%">
     </div>
+    
+    <div class="mySlides">
+     <div class="numbertext">TEXT HERE</div>
+     <img src= "https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e92530910408e119cb79e45/1586647913422/1+%2892%29+Darken+v2.png" style="width:100%">
+    </div>
+    
 	 <!-- slide show buttons-->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -199,8 +210,8 @@ img.hover-shadow {
 <span class="close cursor" onclick="closeModal2()">&times;</span>
 <div class="modal-content">
     <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd6ac29259ee3d450d64f3/1590520621513/IMG_9637+v7+website.png" style="width:100%">
+      <div class="numbertext">TEXT HERE</div>
+      <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9d8172e6a72aac6ac243/1590533589608/IMG_9637+v7.jpg" style="width:100%">
     </div>
 
     <!-- <div class="mySlides">
@@ -226,11 +237,11 @@ img.hover-shadow {
   <span class="close cursor" onclick="closeModal3()">&times;</span>
   <div class="modal-content">
     <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9d430d634c6b2ad7d7b9/1590533475829/IMG_9612+BW.jpg" style="width:100%">
+      <div class="numbertext">TEXT HERE</div>
+      <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9ce45699191ae9bf1ac3/1590533424014/IMG_9611+v5.jpg" style="width:100%">
     </div>
   </div class ="mySlides">
-  <img src="https://images.pexels.com/photos/40904/bmw-k-1300-metallic-motorcycle-40904.jpeg?cs=srgb&dl=black-and-blue-sports-bike-40904.jpg&fm=jpg" style="width: 100%">
+  <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9d430d634c6b2ad7d7b9/1590533475829/IMG_9612+BW.jpg" style="width: 100%">
   
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -248,7 +259,7 @@ img.hover-shadow {
 	<span class="close cursor" onclick="closeModal4()">&times;</span>
   <div class="modal-content">
     <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
+      <div class="numbertext">TEXT HERE</div>
       <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecdad265060ad27ee75222b/1590537528279/DSCF2211+v4.jpg" style="width:100%">
     </div>
      <img src="https://images.pexels.com/photos/3875508/pexels-photo-3875508.jpeg?cs=srgb&dl=screen-of-modern-treadmill-against-black-background-3875508.jpg&fm=jpg" style="width:100%">
