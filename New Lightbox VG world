@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -252,7 +252,7 @@ img.hover-shadow {
      <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE &nbsp</p> </h4></div>
      <img src= "https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?cs=srgb&dl=person-on-a-bridge-near-a-lake-747964.jpg&fm=jpg" style="width: 100%" style="width:100%">
      	<div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here 	 	</p></h4>  </div>
-    </div>
+    
     <!--if this last img is removed reduce modal 3's slide counter by 1-->
     <div class="mySlides">
      <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE &nbsp</p> </h4></div>
