@@ -136,7 +136,7 @@ body {
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 8px 12px;
+  padding: 15px 0px;
   position: absolute;
   top: 0;
 }
@@ -175,9 +175,11 @@ img.hover-shadow {
 <!--images -->
 <div class="row">
   <div class="column">
+  <div class="numbertext"> <h5 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h5> </div>
     <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e923f50be74603c92ce79d7/1586642811335/dan+astrid+tyre+edit+v1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
   </div>
   <div class="column">
+  <div class="numbertext"><h5 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE BTS &nbsp</p> </h5></div>
     <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd6ac29259ee3d450d64f3/1590520621513/IMG_9637+v7+website.png" style="width:100%" onclick="openModal2();currentSlide(5)" class="hover-shadow cursor">
   </div>
   <div class="column">
@@ -186,6 +188,7 @@ img.hover-shadow {
   <div class="column">
     <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%" onclick="openModal4();currentSlide(10)" class="hover-shadow cursor">
   </div>
+  
 </div>
 
 
@@ -237,27 +240,27 @@ img.hover-shadow {
   <div class="modal-content">
 
     <div class="mySlides">
-      <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE &nbsp</p> </h4></div>
+      <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
       <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9d8172e6a72aac6ac243/1590533589608/IMG_9637+v7.jpg" style="width:100%">
-      	<div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here 	</p></h4>  </div>
+      	<div class="overlay"> <h4><p>VG collaborated with... <br/> the UK Platinum Artist Tion Wayne on the <br/> TW-IN VOLLER tracksuit, that is worn in the <br/> music video entitled "I Dunno" by Tion Wayne, <br/> Dutchavelli & Stormzy. </p></h4>  </div>
     </div>
 
     <div class="mySlides">
-     <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE &nbsp</p> </h4></div>
+     <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
       <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9ce45699191ae9bf1ac3/1590533424014/IMG_9611+v5.jpg" style="width:100%">
-      	<div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here 	 </p></h4>  </div>
+      	<div class="overlay"> <h4><p>VG collaborated with... <br/> the UK Platinum Artist Tion Wayne on the <br/> TW-IN VOLLER tracksuit, that is worn in the <br/> music video entitled "I Dunno" by Tion Wayne, <br/> Dutchavelli & Stormzy. </p></h4>  </div>
     </div>
 
     <div class="mySlides">
-     <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE &nbsp</p> </h4></div>
-     <img src= "https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?cs=srgb&dl=person-on-a-bridge-near-a-lake-747964.jpg&fm=jpg" style="width: 100%" style="width:100%">
-     	<div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here 	 	</p></h4>  </div>
+     <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
+     <img src= "https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9d430d634c6b2ad7d7b9/1590533475829/IMG_9612+BW.jpg" style="width: 100%" style="width:100%">
+     	<div class="overlay"> <h4><p>VG collaborated with... <br/> the UK Platinum Artist Tion Wayne on the <br/> TW-IN VOLLER tracksuit, that is worn in the <br/> music video entitled "I Dunno" by Tion Wayne, <br/> Dutchavelli & Stormzy. </p></h4>  </div>
     
     <!--if this last img is removed reduce modal 3's slide counter by 1-->
     <div class="mySlides">
-     <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE &nbsp</p> </h4></div>
-     <img src= "">
-     	<div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here 	 </p></h4>  </div>
+     <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
+     <img src= "https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecdad265060ad27ee75222b/1590537528279/DSCF2211+v4.jpg" style="width: 100%" style="width:100%">
+     	<div class="overlay"> <h4><p>VG collaborated with... <br/> the UK Platinum Artist Tion Wayne on the <br/> TW-IN VOLLER tracksuit, that is worn in the <br/> music video entitled "I Dunno" by Tion Wayne, <br/> Dutchavelli & Stormzy. </p></h4>  </div>
     </div>
     </div>
     
@@ -279,10 +282,10 @@ img.hover-shadow {
   <div class="modal-content">
     <div class="mySlides">
       <div class="numbertext">TEXT HERE</div>
-      <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9ce45699191ae9bf1ac3/1590533424014/IMG_9611+v5.jpg" style="width:100%">
+      <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%">
     </div>
   <div class="mySlides">
-  <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9d430d634c6b2ad7d7b9/1590533475829/IMG_9612+BW.jpg" style="width: 100%">
+  <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width: 100%">
   </div>
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -387,3 +390,4 @@ function showSlides(n) {
     
 </body>
 </html>
+
