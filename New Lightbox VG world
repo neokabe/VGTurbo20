@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -178,13 +178,13 @@ img.hover-shadow {
     <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e923f50be74603c92ce79d7/1586642811335/dan+astrid+tyre+edit+v1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd6ac29259ee3d450d64f3/1590520621513/IMG_9637+v7+website.png" style="width:100%" onclick="openModal2();currentSlide(4)" class="hover-shadow cursor">
+    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd6ac29259ee3d450d64f3/1590520621513/IMG_9637+v7+website.png" style="width:100%" onclick="openModal2();currentSlide(5)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%" onclick="openModal3();currentSlide(3)" class="hover-shadow cursor">
+    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%" onclick="openModal3();currentSlide(9)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%" onclick="openModal4();currentSlide(1)" class="hover-shadow cursor">
+    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%" onclick="openModal4();currentSlide(10)" class="hover-shadow cursor">
   </div>
 </div>
 
@@ -230,24 +230,40 @@ img.hover-shadow {
 </div><!-- temp test--> 
 
 
-  <!--**Second Modal** -->
-	
+
+ <!--**new second  modal** -->
 <div id="myModal2" class="modal">
-<span class="close cursor" onclick="closeModal2()">&times;</span>
-<div class="modal-content">
+  <span class="close cursor" onclick="closeModal2()">&times;</span>
+  <div class="modal-content">
+
     <div class="mySlides">
-      <div class="numbertext">TEXT HERE</div>
+      <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE &nbsp</p> </h4></div>
       <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9d8172e6a72aac6ac243/1590533589608/IMG_9637+v7.jpg" style="width:100%">
+      	<div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here 	</p></h4>  </div>
     </div>
 
-    <!-- <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
+    <div class="mySlides">
+     <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE &nbsp</p> </h4></div>
       <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9ce45699191ae9bf1ac3/1590533424014/IMG_9611+v5.jpg" style="width:100%">
+      	<div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here 	 </p></h4>  </div>
+    </div>
 
-      <img src="https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?cs=srgb&dl=person-on-a-bridge-near-a-lake-747964.jpg&fm=jpg" style="width: 100%">
-  </div> -->
-	   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="mySlides">
+     <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE &nbsp</p> </h4></div>
+     <img src= "https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?cs=srgb&dl=person-on-a-bridge-near-a-lake-747964.jpg&fm=jpg" style="width: 100%" style="width:100%">
+     	<div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here 	 	</p></h4>  </div>
+    </div>
+    <!--if this last img is removed reduce modal 3's slide counter by 1-->
+    <div class="mySlides">
+     <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE &nbsp</p> </h4></div>
+     <img src= "">
+     	<div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here 	 </p></h4>  </div>
+    </div>
+    </div>
+    
+	 <!-- slide show buttons-->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
     <div class="caption-container">
       <p id="caption"></p>
@@ -256,9 +272,8 @@ img.hover-shadow {
 </div>
 
 
-
   
-	<!-- **Third Modal** -->
+  <!-- **Third Modal** -->
 <div id="myModal3" class="modal">
   <span class="close cursor" onclick="closeModal3()">&times;</span>
   <div class="modal-content">
@@ -266,9 +281,9 @@ img.hover-shadow {
       <div class="numbertext">TEXT HERE</div>
       <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9ce45699191ae9bf1ac3/1590533424014/IMG_9611+v5.jpg" style="width:100%">
     </div>
-  </div class ="mySlides">
+  <div class="mySlides">
   <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9d430d634c6b2ad7d7b9/1590533475829/IMG_9612+BW.jpg" style="width: 100%">
-  
+  </div>
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
@@ -276,7 +291,7 @@ img.hover-shadow {
       <p id="caption"></p>
     </div>
   </div>
-  </div>
+ </div>
 	
 
 
@@ -304,7 +319,10 @@ img.hover-shadow {
 <script>
 
 /* modal close and open call function */
-  
+  if (event.target == modal) {
+    modal.style.display = "none";     
+    $('body').css('overflow', 'auto');
+   }
 function openModal() {
   document.getElementById("myModal1").style.display = "block";
 }
