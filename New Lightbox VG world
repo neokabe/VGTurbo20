@@ -186,7 +186,7 @@ img.hover-shadow {
     <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%" onclick="openModal3();currentSlide(9)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%" onclick="openModal4();currentSlide(10)" class="hover-shadow cursor">
+    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%" onclick="openModal4();currentSlide(14)" class="hover-shadow cursor">
   </div>
   
 </div>
@@ -230,7 +230,7 @@ img.hover-shadow {
     </div>
   </div>
 </div>
-</div><!-- temp test--> 
+
 
 
 
@@ -276,47 +276,87 @@ img.hover-shadow {
 
 
   
-  <!-- **Third Modal** -->
+<!--**new third  modal** -->
 <div id="myModal3" class="modal">
   <span class="close cursor" onclick="closeModal3()">&times;</span>
   <div class="modal-content">
+
     <div class="mySlides">
-      <div class="numbertext">TEXT HERE</div>
+      <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE1 &nbsp</p> </h4></div>
       <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%">
+        <div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here  </p></h4>  </div>
     </div>
-  <div class="mySlides">
-  <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width: 100%">
-  </div>
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-  </div>
- </div>
-	
-
-
-	<!-- Forth Modal-->
-    <div id="myModal4" class="modal">
-	<span class="close cursor" onclick="closeModal4()">&times;</span>
-  <div class="modal-content">
     <div class="mySlides">
-      <div class="numbertext">TEXT HERE</div>
-      <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecdad265060ad27ee75222b/1590537528279/DSCF2211+v4.jpg" style="width:100%">
+     <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE2 &nbsp</p> </h4></div>
+      <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%">
+        <div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here   </p></h4>  </div>
     </div>
-     <img src="https://images.pexels.com/photos/3875508/pexels-photo-3875508.jpeg?cs=srgb&dl=screen-of-modern-treadmill-against-black-background-3875508.jpg&fm=jpg" style="width:100%">
+
+    <div class="mySlides">
+     <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE3 &nbsp</p> </h4></div>
+     <img src= "https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?cs=srgb&dl=person-on-a-bridge-near-a-lake-747964.jpg&fm=jpg"  style="width:100%">
+      <div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here    </p></h4>  </div>
+    
+    <!--if this last img is removed reduce modal 4's slide counter by 1-->
+    <div class="mySlides">
+     <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE4 &nbsp</p> </h4></div>
+     <img src= "https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg">
+      <div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here   </p></h4>  </div>
+    </div>
+    </div>
+    
+   <!-- slide show buttons-->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-    <div class="caption-container">
+   <!-- <div class="caption-container">-->
       <p id="caption"></p>
     </div>
   </div>
 </div>
+	
 
 
+<!--**new Fourth modal** -->
+<div id="myModal4" class="modal">
+  <span class="close cursor" onclick="closeModal4()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE1 &nbsp</p> </h4></div>
+      <img 	src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%">
+        <div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here  </p></h4>  </div>
+    </div>
+
+    <div class="mySlides">
+     <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE2 &nbsp</p> </h4></div>
+      <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%">
+        <div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here   </p></h4>  </div>
+    </div>
+
+    <div class="mySlides">
+     <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE3 &nbsp</p> </h4></div>
+     <img src= "https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg"  style="width:100%">
+      <div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here    </p></h4>  </div>
+    
+    <!--if this last img is removed monitor  modal 1s' counter-->
+    <div class="mySlides">
+     <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE4 &nbsp</p> </h4></div>
+     <img src= "">
+      <div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here   </p></h4>  </div>
+    </div>
+    </div>
+    
+   <!-- slide show buttons-->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <!--<p id="caption"></p>-->
+    </div>
+  </div>
+</div>
 
 
 <script>
@@ -379,15 +419,14 @@ function showSlides(n) {
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
+//  for (i = 0; i < dots.length; i++) {
+//      dots[i].className = dots[i].className.replace(" active", "");
+//  }
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
+//  dots[slideIndex-1].className += " active";
+//  captionText.innerHTML = dots[slideIndex-1].alt;
 }
 </script>
     
 </body>
 </html>
-
