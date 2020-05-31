@@ -180,13 +180,13 @@ img.hover-shadow {
   </div>
   <div class="column">
   <div class="numbertext"><h5 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE BTS &nbsp</p> </h5></div>
-    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd6ac29259ee3d450d64f3/1590520621513/IMG_9637+v7+website.png" style="width:100%" onclick="openModal2();currentSlide(5)" class="hover-shadow cursor">
+    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd6ac29259ee3d450d64f3/1590520621513/IMG_9637+v7+website.png" style="width:100%" onclick="openModal2();currentSlide2(1)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%" onclick="openModal3();currentSlide(9)" class="hover-shadow cursor">
+    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%" onclick="openModal3();currentSlide3(1)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%" onclick="openModal4();currentSlide(14)" class="hover-shadow cursor">
+    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%" onclick="openModal4();currentSlide4(14)" class="hover-shadow cursor">
   </div>
   
 </div>
@@ -239,25 +239,25 @@ img.hover-shadow {
   <span class="close cursor" onclick="closeModal2()">&times;</span>
   <div class="modal-content">
 
-    <div class="mySlides">
+    <div class="mySlides2">
       <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
       <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9d8172e6a72aac6ac243/1590533589608/IMG_9637+v7.jpg" style="width:100%">
       	<div class="overlay"> <h4><p>VG collaborated with... <br/> the UK Platinum Artist Tion Wayne on the <br/> TW-IN VOLLER tracksuit, that is worn in the <br/> music video entitled "I Dunno" by Tion Wayne, <br/> Dutchavelli & Stormzy. </p></h4>  </div>
     </div>
 
-    <div class="mySlides">
+    <div class="mySlides2">
      <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
       <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9ce45699191ae9bf1ac3/1590533424014/IMG_9611+v5.jpg" style="width:100%">
       	<div class="overlay"> <h4><p>VG collaborated with... <br/> the UK Platinum Artist Tion Wayne on the <br/> TW-IN VOLLER tracksuit, that is worn in the <br/> music video entitled "I Dunno" by Tion Wayne, <br/> Dutchavelli & Stormzy. </p></h4>  </div>
     </div>
 
-    <div class="mySlides">
+    <div class="mySlides2">
      <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
      <img src= "https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9d430d634c6b2ad7d7b9/1590533475829/IMG_9612+BW.jpg" style="width: 100%" style="width:100%">
      	<div class="overlay"> <h4><p>VG collaborated with... <br/> the UK Platinum Artist Tion Wayne on the <br/> TW-IN VOLLER tracksuit, that is worn in the <br/> music video entitled "I Dunno" by Tion Wayne, <br/> Dutchavelli & Stormzy. </p></h4>  </div>
     
     <!--if this last img is removed reduce modal 3's slide counter by 1-->
-    <div class="mySlides">
+    <div class="mySlides2">
      <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
      <img src= "https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecdad265060ad27ee75222b/1590537528279/DSCF2211+v4.jpg" style="width: 100%" style="width:100%">
      	<div class="overlay"> <h4><p>VG collaborated with... <br/> the UK Platinum Artist Tion Wayne on the <br/> TW-IN VOLLER tracksuit, that is worn in the <br/> music video entitled "I Dunno" by Tion Wayne, <br/> Dutchavelli & Stormzy. </p></h4>  </div>
@@ -265,8 +265,8 @@ img.hover-shadow {
     </div>
     
 	 <!-- slide show buttons-->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides2(1)">&#10095;</a>
 
     <div class="caption-container">
       <p id="caption"></p>
@@ -281,25 +281,25 @@ img.hover-shadow {
   <span class="close cursor" onclick="closeModal3()">&times;</span>
   <div class="modal-content">
 
-    <div class="mySlides">
+    <div class="mySlides3">
       <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE1 &nbsp</p> </h4></div>
       <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%">
         <div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here  </p></h4>  </div>
     </div>
 
-    <div class="mySlides">
+    <div class="mySlides3">
      <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE2 &nbsp</p> </h4></div>
       <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%">
         <div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here   </p></h4>  </div>
     </div>
 
-    <div class="mySlides">
+    <div class="mySlides3">
      <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE3 &nbsp</p> </h4></div>
      <img src= "https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?cs=srgb&dl=person-on-a-bridge-near-a-lake-747964.jpg&fm=jpg"  style="width:100%">
       <div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here    </p></h4>  </div>
     
     <!--if this last img is removed reduce modal 4's slide counter by 1-->
-    <div class="mySlides">
+    <div class="mySlides3">
      <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE4 &nbsp</p> </h4></div>
      <img src= "https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg">
       <div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here   </p></h4>  </div>
@@ -307,8 +307,8 @@ img.hover-shadow {
     </div>
     
    <!-- slide show buttons-->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides3(1)">&#10095;</a>
 
    <!-- <div class="caption-container">-->
       <p id="caption"></p>
@@ -323,25 +323,25 @@ img.hover-shadow {
   <span class="close cursor" onclick="closeModal4()">&times;</span>
   <div class="modal-content">
 
-    <div class="mySlides">
+    <div class="mySlides4">
       <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE1 &nbsp</p> </h4></div>
       <img 	src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%">
         <div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here  </p></h4>  </div>
     </div>
 
-    <div class="mySlides">
+    <div class="mySlides4">
      <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE2 &nbsp</p> </h4></div>
       <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%">
         <div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here   </p></h4>  </div>
     </div>
 
-    <div class="mySlides">
+    <div class="mySlides4">
      <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE3 &nbsp</p> </h4></div>
      <img src= "https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg"  style="width:100%">
       <div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here    </p></h4>  </div>
     
     <!--if this last img is removed monitor  modal 1s' counter-->
-    <div class="mySlides">
+    <div class="mySlides4">
      <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE4 &nbsp</p> </h4></div>
      <img src= "">
       <div class="overlay"> <h4><p>LOWER TEXT here<br/> BOTTOM text here   </p></h4>  </div>
@@ -349,8 +349,8 @@ img.hover-shadow {
     </div>
     
    <!-- slide show buttons-->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <a class="prev" onclick="plusSlides4(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides4(1)">&#10095;</a>
 
     <div class="caption-container">
       <!--<p id="caption"></p>-->
@@ -369,37 +369,40 @@ img.hover-shadow {
 function openModal() {
   document.getElementById("myModal1").style.display = "block";
 }
-
   function closeModal() {
   document.getElementById("myModal1").style.display = "none";
 }
 
+
 function openModal2() {
   document.getElementById("myModal2").style.display = "block";
 }
-
   function closeModal2() {
   document.getElementById("myModal2").style.display = "none";
 }
 
+
 function openModal3() {
   document.getElementById("myModal3").style.display = "block";
 }
-
   function closeModal3() {
   document.getElementById("myModal3").style.display = "none";
 }
 
+
 function openModa4() {
   document.getElementById("myModal4").style.display = "block";
 }
-
   function closeModal4() {
   document.getElementById("myModal4").style.display = "none";
 }
+
 /* add if statetment to reset index to 1 for  each modal selection (inside open modal function )*/
 var slideIndex = 1;
-showSlides(slideIndex);
+showSlides(slideIndex, mySlides);
+showSlides2(slideIndex, mySlides2);
+showSlides3(slideIndex, mySlides3);
+showSlides4(slideIndex, mySlides4);
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -411,6 +414,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
+  
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("demo");
   var captionText = document.getElementById("caption");
@@ -419,13 +423,68 @@ function showSlides(n) {
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
-//  for (i = 0; i < dots.length; i++) {
-//      dots[i].className = dots[i].className.replace(" active", "");
-//  }
+
   slides[slideIndex-1].style.display = "block";
-//  dots[slideIndex-1].className += " active";
-//  captionText.innerHTML = dots[slideIndex-1].alt;
+
 }
+
+/****************** second script *********************/
+//"n" is taken from the original image to identify what order slides should be in (current slide)
+//default is 1 5 9 13 (or 1234) but in this case it should always be 1
+//plusSlides function fron the arrows is differnt for each modal
+var slideIndex = 1;
+function plusSlides2(n) {
+  showSlides2(slideIndex += n);
+}
+// function calls requre each front image to have a different function name
+function currentSlide2(n) {
+  showSlides2(slideIndex = n);
+}
+//parallel function should replace oringinal... 
+function showSlides2(n) {
+  var i;
+  
+  var slides2 = document.getElementsByClassName("mySlides2");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides2.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides2.length}
+  for (i = 0; i < slides2.length; i++) {
+      slides2[i].style.display = "none";
+  }
+
+  slides2[slideIndex-1].style.display = "block";
+
+}
+
+/****** thrid script -second copy*******/
+
+function plusSlides3(n) {
+  showSlides3(slideIndex += n);
+}
+// function calls requre each front image to have a different function name
+function currentSlide3(n) {
+  showSlides3(slideIndex = n);
+}
+//parallel function should replace oringinal... 
+function showSlides3(n) {
+  var i;
+  
+  var slides3 = document.getElementsByClassName("mySlides3");
+  if (n > slides3.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides3.length - 1}
+  for (i = 0; i < slides3.length; i++) {
+      slides3[i].style.display = "none";
+  }
+
+  slides3[slideIndex-1].style.display = "block";
+
+}
+
+
+
+
+
 </script>
     
 </body>
