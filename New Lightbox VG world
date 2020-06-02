@@ -193,7 +193,7 @@ img.hover-shadow {
  
      <!-- Third cover-->
     <div class="column">
-    <div class="numbertext"><h5 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE BTS &nbsp</p> </h5></div>
+    <div class="numbertext"><h5 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp TEXT HERE &nbsp</p> </h5></div>
     <div class="experience-list exper3 overlay" id="myBtn3" onclick="openModal3();" data-modal="myModal3">
     <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%" onclick="openModal3();currentSlide3(1)" class="hover-shadow cursor">
   </div>
@@ -207,7 +207,7 @@ img.hover-shadow {
   </div>
     
 </div>
-
+</div>
 
 
 
@@ -376,8 +376,7 @@ img.hover-shadow {
 
                             <a class="prev" onclick="plusSlides(-1,'mySlides3')">&#10094;</a>
                             <a class="next" onclick="plusSlides(1,'mySlides3')">&#10095;</a>
-                               <div class="caption-container">
-                                  <p id="caption"></p>
+                               
 
                         </div>
                         <div class="modal-info">
@@ -436,8 +435,7 @@ img.hover-shadow {
 
                             <a class="prev" onclick="plusSlides(-1,'mySlides4')">&#10094;</a>
                             <a class="next" onclick="plusSlides(1,'mySlides4')">&#10095;</a>
-                            <div class="caption-container">
-      <p id="caption"></p>
+                            
 
                         </div>
                         <div class="modal-info">
