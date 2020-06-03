@@ -145,6 +145,7 @@ body {
 
 img {
   margin-bottom: -4px;
+
 }
 
 .caption-container {
@@ -169,6 +170,7 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 </style>
 <h2 style="text-align:center"> </h2>
@@ -178,15 +180,15 @@ img.hover-shadow {
   <div class="column">
   <div class="numbertext"> <h5 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h5> </div>
   <div class="experience-list exper1 overlay" id="myBtn"onclick="openModal();" data-modal="myModal">
-                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e923f50be74603c92ce79d7/1586642811335/dan+astrid+tyre+edit+v1.png" style="width:100%" classs="hover-shadow cursor" />
+                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e923f50be74603c92ce79d7/1586642811335/dan+astrid+tyre+edit+v1.png" class="exp-image hover-shadow cursor" style="width:100%"  />
     </div>
-    </div>
+   </div>
     
 <!-- second cover-->
 <div class="column">
   <div class="numbertext"><h5 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE BTS &nbsp</p> </h5></div>
   <div class="experience-list exper2 overlay" id="myBtn2" onclick="openModal2();" data-modal="myModal2" >
-                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd6ac29259ee3d450d64f3/1590520621513/IMG_9637+v7+website.png" class="exp-image" style="width:100%" class="hover-shadow cursor"/>
+                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd6ac29259ee3d450d64f3/1590520621513/IMG_9637+v7+website.png" class="exp-image hover-shadow cursor" style="width:100%"/>
     </div>
   </div>
   
@@ -214,7 +216,7 @@ img.hover-shadow {
 <!---********* First modal slide show******* ---->
 
                 
-      <div class="exper-details">
+      
               <div class="exper-title"></div>
                  <div class="exper-info">
            </div>
@@ -444,7 +446,7 @@ img.hover-shadow {
                         </div>
                         <span class="close" onclick="closeModa4l()">&times;</span>
                     </div>
-                </div>
+                
             
 <!--SLIDESHOW-->
 <script>
