@@ -140,7 +140,7 @@ body {
   font-size: 12px;
   padding: 15px 0px;
   position: absolute;
-  top: 0;
+  top: 1;
 }
 
 img {
