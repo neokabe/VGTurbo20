@@ -203,9 +203,9 @@ img.hover-shadow {
     
     <!-- fourth cover-->
     <div class="column">
-    <div class="numbertext"><h5 style="background-color:Black;">&nbsp DATE HERE &nbsp<p>&nbsp TEXT HERE1 &nbsp</p> </h5></div>
+    <div class="numbertext"><h5 style="background-color:Black;">&nbsp 04.10.18 &nbsp<p>&nbsp Wolf T-Shirts &nbsp</p> </h5></div>
     <div class="experience-list exper4 overlay" id="myBtn4" onclick="openModal4();" data-modal="myModal4" >
-    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%" onclick="openModal4();currentSlide4(1)" class="hover-shadow cursor">
+    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed943777a46b30219cd19e8/1591296908663/IMG_9637+v7cover.jpg" style="width:100%" onclick="openModal4();currentSlide4(1)" class="hover-shadow cursor">
   </div>
     
 </div>
@@ -289,7 +289,7 @@ img.hover-shadow {
                             <div class="mySlides2 fade">
                             <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
                                 <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9d8172e6a72aac6ac243/1590533589608/IMG_9637+v7.jpg" style="width:100%" />
-                                <div class="overlay"> <h4><p>To end the year... <br/> VG showcased the new TURBO collection.<br/>Influenced by Monaco’s Formula 1 Grand Prix </p></h4>  </div>
+                                <div class="overlay"> <h4><p>Voller Gewinn collaborated with... <br/> the UK Platinum Artist Tion Wayne on the Twin <br/> VOLLER tracksuit, that is worn in the music<br/> video entitled  "I Dunno" by Tion Wayne, <br/> Dutchavelli & Stormzy.</p></h4>  </div>
                             </div>
                             
                             
@@ -297,7 +297,7 @@ img.hover-shadow {
                             <div class="mySlides2 fade">
                                 <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
                                 <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9ce45699191ae9bf1ac3/1590533424014/IMG_9611+v5.jpg" style="width:100%" />
-  <div class="overlay"> <h4><p>To end the year... <br/> VG showcased the new TURBO collection.<br/>Influenced by Monaco’s Formula 1 Grand Prix </p></h4>  </div>
+  <div class="overlay"> <h4><p>Voller Gewinn collaborated with... <br/> the UK Platinum Artist Tion Wayne on the Twin <br/> VOLLER tracksuit, that is worn in the music<br/> video entitled  "I Dunno" by Tion Wayne, <br/> Dutchavelli & Stormzy.</p></h4>  </div>
     </div>
 
                             </div>
@@ -306,14 +306,14 @@ img.hover-shadow {
                             <div class="mySlides2 fade">
                                 <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
                                 <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9d430d634c6b2ad7d7b9/1590533475829/IMG_9612+BW.jpg" style="width:100%" />
-      <div class="overlay"> <h4><p>To end the year... <br/> VG showcased the new TURBO collection.<br/>Influenced by Monaco’s Formula 1 Grand Prix </p></h4>  </div>
+      <div class="overlay"> <h4><p>Voller Gewinn collaborated with... <br/> the UK Platinum Artist Tion Wayne on the Twin <br/> VOLLER tracksuit, that is worn in the music<br/> video entitled  "I Dunno" by Tion Wayne, <br/> Dutchavelli & Stormzy.</p></h4>  </div>
                             </div>
                             
                             <!---slide4-->
                                <div class="mySlides2 fade">
                                 <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
                                 <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecdad265060ad27ee75222b/1590537528279/DSCF2211+v4.jpg" style="width:100%" />
-      <div class="overlay"> <h4><p>To end the year... <br/> VG showcased the new TURBO collection.<br/>Influenced by Monaco’s Formula 1 Grand Prix </p></h4>  </div>
+      <div class="overlay"> <h4><p>Voller Gewinn collaborated with... <br/> the UK Platinum Artist Tion Wayne on the Twin <br/> VOLLER tracksuit, that is worn in the music<br/> video entitled  "I Dunno" by Tion Wayne, <br/> Dutchavelli & Stormzy.</p></h4>  </div>
                             </div>
                             
 
@@ -406,16 +406,16 @@ img.hover-shadow {
                         <!---slide1-->
                             <div class="mySlides4 fade">
                             <div class="numbertext"><h4 style="background-color:Black;">&nbsp DATE HERE1 &nbsp<p>&nbsp TEXT HERE1 &nbsp</p> </h4></div>
-                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%" />
-                                <div class="overlay"> <h4><p>TEXT <br/>HERE </p></h4>  </div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed943066833461c21d9b61b/1591296815616/IMG_9612+BW+v2.jpg" style="width:100%" />
+                                <div class="overlay"> <h4><p>Voller Gewinn's first release... <br/>was the black wolf t-shirt <br/> a stand out entrance piece </p></h4>  </div>
                             </div>
                             
                             
                             <!---slide2-->
                             <div class="mySlides4 fade">
                                 <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h4> </div>
-                                <img src="https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?cs=srgb&dl=person-on-a-bridge-near-a-lake-747964.jpg&fm=jpg" style="width:100%" />
-  <div class="overlay"> <h4><p>To end the year... <br/> VG showcased the new TURBO collection.<br/>Influenced by Monaco’s Formula 1 Grand Prix </p></h4>  </div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed942a3c76e285bcc29c72d/1591296749370/Riise+Wolf+Tshirt.jpg" style="width:100%" />
+  <div class="overlay"> <h4><p>Voller Gewinn's first release... <br/>was the black wolf t-shirt <br/> a stand out entrance piece</p></h4>  </div>
     </div>
 
                             </div>
@@ -423,15 +423,15 @@ img.hover-shadow {
                             <!---slide3-->
                             <div class="mySlides4 fade">
                                 <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h4> </div>
-                                <img src="https://cdn.pixabay.com/photo/2016/04/07/06/53/bmw-1313343_1280.jpg" style="width:100%" />
-      <div class="overlay"> <h4><p>To end the year... <br/> VG showcased the new TURBO collection.<br/>Influenced by Monaco’s Formula 1 Grand Prix </p></h4>  </div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed94c8f4830df29e1e2e14b/1591299276306/IMG_9612+BW+lighter+v2.jpg" style="width:100%" />
+      <div class="overlay"> <h4><p>Voller Gewinn's first release... <br/>was the black wolf t-shirt <br/> a stand out entrance piece</p></h4>  </div>
                             </div>
                             
                             <!---slide4-->
                                <div class="mySlides4 fade">
                                 <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h4> </div>
-                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e92530910408e119cb79e45/1586647913422/1+%2892%29+Darken+v2.png" style="width:100%" />
-      <div class="overlay"> <h4><p>To end the year... <br/> VG showcased the new TURBO collection.<br/>Influenced by Monaco’s Formula 1 Grand Prix </p></h4>  </div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed9427322fdf26b667cc174/1591296648060/LRG__DSC1236larger.jpg" style="width:100%" />
+      <div class="overlay"> <h4><p>Voller Gewinn's first release... <br/>was the black wolf t-shirt <br/> a stand out entrance piece</p></h4>  </div>
                             </div>
                             
 
@@ -544,3 +544,4 @@ function showSlides(n, slide ) {
 
 
 </html>
+
