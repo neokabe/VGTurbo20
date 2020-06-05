@@ -138,9 +138,22 @@ body {
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 15px 0px;
+  padding: 0px 0px;
   position: absolute;
-  top: 1;
+  bottom: 86%;
+  
+  
+  z-index: 1;
+}
+
+.numbertext2 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 0px 0px;
+  position: absolute;
+  bottom: 18%; 
+ /*top:2;*/
+  z-index: 1;
 }
 
 img {
@@ -178,24 +191,24 @@ img.hover-shadow {
 <div class="row">
 
   <div class="column">
-  <div class="numbertext"> <h5 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h5> </div>
-  <div class="experience-list exper1 overlay" id="myBtn"onclick="openModal();" data-modal="myModal">
-                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e923f50be74603c92ce79d7/1586642811335/dan+astrid+tyre+edit+v1.png" class="exp-image hover-shadow cursor" style="width:100%"  />
+  <div class="numbertext"> <h5 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE BTS &nbsp</p> </h5> </div>
+  <div class="experience-list exper2 overlay" id="myBtn2"onclick="openModal2();" data-modal="myModal2">
+                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd6ac29259ee3d450d64f3/1590520621513/IMG_9637+v7+website.png" class="exp-image hover-shadow cursor" class="exp-image hover-shadow cursor" style="width:99%"  /> <!-- image is larger so has to be scaled with img 3 to fix format-->
     </div>
    </div>
     
 <!-- second cover-->
 <div class="column">
-  <div class="numbertext"><h5 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE BTS &nbsp</p> </h5></div>
-  <div class="experience-list exper2 overlay" id="myBtn2" onclick="openModal2();" data-modal="myModal2" >
-                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd6ac29259ee3d450d64f3/1590520621513/IMG_9637+v7+website.png" class="exp-image hover-shadow cursor" style="width:100%"/>
+  <div class="numbertext"><h5 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h5></div>
+  <div class="experience-list exper1 overlay" id="myBtn" onclick="openModal();" data-modal="myModal" >
+                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e923f50be74603c92ce79d7/1586642811335/dan+astrid+tyre+edit+v1.png" class="exp-image hover-shadow cursor" style="width:100%"/>
     </div>
   </div>
   
  
      <!-- Third cover-->
     <div class="column">
-    <div class="numbertext"><h5 style="background-color:Black;">&nbsp 17.02.19 &nbsp<p>&nbsp LONDON FASHION WEEK &nbsp</p> </h5></div>
+    <div class="numbertext2"><h5 style="background-color:Black;">&nbsp 17.02.19 &nbsp<p>&nbsp LONDON FASHION WEEK &nbsp</p> </h5></div>
     <div class="experience-list exper3 overlay" id="myBtn3" onclick="openModal3();" data-modal="myModal3">
     <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed963115e6be5361eeb0b44/1591305011818/lfw-oxo-cover.jpg" style="width:100%" onclick="openModal3();currentSlide3(1)" class="hover-shadow cursor">
   </div>
@@ -203,7 +216,7 @@ img.hover-shadow {
     
     <!-- fourth cover-->
     <div class="column">
-    <div class="numbertext"><h5 style="background-color:Black;">&nbsp 04.10.18 &nbsp<p>&nbsp Wolf T-Shirts &nbsp</p> </h5></div>
+    <div class="numbertext2"><h5 style="background-color:Black;">&nbsp 04.10.18 &nbsp<p>&nbsp Wolf T-Shirts &nbsp</p> </h5></div>
     <div class="experience-list exper4 overlay" id="myBtn4" onclick="openModal4();" data-modal="myModal4" >
     <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed943777a46b30219cd19e8/1591296908663/IMG_9637+v7cover.jpg" style="width:100%" onclick="openModal4();currentSlide4(1)" class="hover-shadow cursor">
   </div>
