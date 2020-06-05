@@ -193,7 +193,7 @@ img.hover-shadow {
   <div class="column">
   <div class="numbertext"> <h5 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE BTS &nbsp</p> </h5> </div>
   <div class="experience-list exper2 overlay" id="myBtn2"onclick="openModal2();" data-modal="myModal2">
-                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd6ac29259ee3d450d64f3/1590520621513/IMG_9637+v7+website.png" class="exp-image hover-shadow cursor" class="exp-image hover-shadow cursor" style="width:99%"  /> <!-- image is larger so has to be scaled with img 3 to fix format-->
+                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5eda8f98bd09b7280f95112d/1591381937896/IMG_9637+v7cover+v2.jpg" class="exp-image hover-shadow cursor" class="exp-image hover-shadow cursor" style="width:100%"  /> <!-- image is larger so has to be scaled with img 3 to fix format-->
     </div>
    </div>
     
@@ -201,7 +201,7 @@ img.hover-shadow {
 <div class="column">
   <div class="numbertext"><h5 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h5></div>
   <div class="experience-list exper1 overlay" id="myBtn" onclick="openModal();" data-modal="myModal" >
-                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5e923f50be74603c92ce79d7/1586642811335/dan+astrid+tyre+edit+v1.png" class="exp-image hover-shadow cursor" style="width:100%"/>
+                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5eda917c35d90a64cf3ada3e/1591382423635/danny+astrid+cover.jpg" class="exp-image hover-shadow cursor" style="width:100%"/>
     </div>
   </div>
   
@@ -250,20 +250,21 @@ img.hover-shadow {
                             <!---slide2-->
                             <div class="mySlides fade">
                                 <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h4> </div>
-                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed6eb28116c2d22bf7df438/1591143221383/kyle+milan.jpg" style="width:100%" />
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed6eb0d160e39066d28e3f3/1591143192819/astrid+bts.jpg" style="width:100%" />
   <div class="overlay"> <h4><p>To end the year... <br/> VG showcased the new TURBO collection.<br/>Influenced by Monaco’s Formula 1 Grand Prix </p></h4>  </div>
     </div>
 
                             </div>
                             
+                            
                             <!---slide3-->
-                            <div class="mySlides fade">
+                               <div class="mySlides fade">
                                 <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h4> </div>
-                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed6eb0d160e39066d28e3f3/1591143192819/astrid+bts.jpg" style="width:100%" />
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5eda89863c33987be16a3371/1591380381102/milan+bts.jpg" style="width:100%" />
       <div class="overlay"> <h4><p>To end the year... <br/> VG showcased the new TURBO collection.<br/>Influenced by Monaco’s Formula 1 Grand Prix </p></h4>  </div>
                             </div>
                             
-                            <!---slide4-->
+                                                        <!---slide4-->
                                <div class="mySlides fade">
                                 <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h4> </div>
                                 <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed6eaeedee6ad38b6bb7e37/1591143169892/Danny+Debz+v2.jpg" style="width:100%" />
@@ -320,12 +321,26 @@ img.hover-shadow {
                                 <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
                                 <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9d430d634c6b2ad7d7b9/1590533475829/IMG_9612+BW.jpg" style="width:100%" />
       <div class="overlay"> <h4><p>Voller Gewinn collaborated with... <br/> the UK Platinum Artist Tion Wayne on the Twin <br/> VOLLER tracksuit, that is worn in the music<br/> video entitled  "I Dunno" by Tion Wayne, <br/> Dutchavelli & Stormzy.</p></h4>  </div>
-                            </div>
-                            
-                            <!---slide4-->
+                            </div>                   
+                          
+                                                        <!---slide4-->
                                <div class="mySlides2 fade">
                                 <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
-                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecdad265060ad27ee75222b/1590537528279/DSCF2211+v4.jpg" style="width:100%" />
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5eda7670a195c165e8bed77d/1591375536560/tion+stormzy+dutch.jpg" style="width:100%" />
+      <div class="overlay"> <h4><p>Voller Gewinn collaborated with... <br/> the UK Platinum Artist Tion Wayne on the Twin <br/> VOLLER tracksuit, that is worn in the music<br/> video entitled  "I Dunno" by Tion Wayne, <br/> Dutchavelli & Stormzy.</p></h4>  </div>
+                            </div>
+                            
+                                                                                    <!---slide5-->
+                               <div class="mySlides2 fade">
+                                <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5eda75f17182ac1d425e4e9c/1591375408437/voller+x+Tion+BTSs.jpg" style="width:100%" />
+      <div class="overlay"> <h4><p>Voller Gewinn collaborated with... <br/> the UK Platinum Artist Tion Wayne on the Twin <br/> VOLLER tracksuit, that is worn in the music<br/> video entitled  "I Dunno" by Tion Wayne, <br/> Dutchavelli & Stormzy.</p></h4>  </div>
+                            </div>
+                            
+                            <!---slide6-->
+                               <div class="mySlides2 fade">
+                                <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5eda771c7182ac1d425e8642/1591375685690/tion+bts+v22.jpg" style="width:100%" />
       <div class="overlay"> <h4><p>Voller Gewinn collaborated with... <br/> the UK Platinum Artist Tion Wayne on the Twin <br/> VOLLER tracksuit, that is worn in the music<br/> video entitled  "I Dunno" by Tion Wayne, <br/> Dutchavelli & Stormzy.</p></h4>  </div>
                             </div>
                             
@@ -381,12 +396,6 @@ img.hover-shadow {
                               <div class="overlay"> <h4><p>Voller Gewinn opened at... <br/>a London Fashion Week private showcase at <br/> the OXO Tower, showcasing exclusive pieces <br/> from the wolf collection</p></h4>  </div>
                             </div>
                            
-                                  <!---slide4-->
-                            <div class="mySlides3 fade">
-                                <div class="numbertext"><h4 style="background-color:Black;">&nbsp 17.02.19 &nbsp<p>&nbsp London Fashion Week &nbsp</p> </h4></div>
-                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed02d0f0d56e867550e98af/1590701336113/EMPTY+cover.jpg" style="width:100%"/>
-                                  <div class="overlay"> <h4><p>Voller Gewinn opened at... <br/>a London Fashion Week private showcase at <br/> the OXO Tower, showcasing exclusive pieces <br/> from the wolf collection</p></h4>  </div>
-                            </div>
                             
 
                             <a class="prev" onclick="plusSlides(-1,'mySlides3')">&#10094;</a>
@@ -443,7 +452,7 @@ img.hover-shadow {
                             <!---slide4-->
                                <div class="mySlides4 fade">
                                 <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 04.10.18 &nbsp<p>&nbsp Wolf T-Shirts &nbsp</p> </h4> </div>
-                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed9427322fdf26b667cc174/1591296648060/LRG__DSC1236larger.jpg" style="width:100%" />
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5eda8ebbbe86af28357ddb40/1591381705498/LRG__DSC1236+lighter.jpg" style="width:100%" />
       <div class="overlay"> <h4><p>Voller Gewinn's first release... <br/>was the black wolf t-shirt <br/> a stand out entrance piece</p></h4>  </div>
                             </div>
                             
