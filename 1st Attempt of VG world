@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style> 
+body {font-family: , Arial, Helvetica, sans-serif, 'DIN Condensed', 'DIN Condensed';}
+
+ 
+
+  h4 {
+   font-family: 'DIN Condensed';
+   font-weight: 400;
+   font-style: normal;
+   font-size: 1.5em;
+   letter-spacing: .1em;
+   text-transform: uppercase;
+   line-height: 0.1em;
+} 
+
+    h5 {
+   font-family: 'DIN Condensed';
+   font-weight: 400;
+   font-style: normal;
+   font-size: 1.2em;
+   letter-spacing: .1em;
+   text-transform: uppercase;
+   line-height: 1.1em;
+} 
+  
+/* The Modal (background) */
+.modal1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 60px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #888;
+  width: auto;
+  height: auto;
+  overflow: auto;
+  white-space: nowrap;
+}
+  
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #222222;
+  color: white;
+width: auto;
+      margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-body {
+  padding: 10px 0px;
+  width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.modal-footer {
+ 
+  padding-bottom: 30px;
+  padding-top: 0.5px;
+  background-color: #e8e8e8;
+  color: #222222;
+  width: auto;
+      margin-left: auto;
+    margin-right: auto;
+}
+
+/* For Cover Image */  
+.container1 {
+  position: relative;
+  width: 350px;
+      margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.image1 {
+  opacity: 1;
+  display: block;
+  width: auto;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.container:hover .image {
+  opacity: 0.9;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color:;
+  color: #222222;
+  padding: 16px 16px;
+  opacity: 1;
+  font: 'DIN Condensed'; 
+  font-size:;
+  letter-spacing: .1em; 
+  font-weight: 400; 
+  font-style: normal;
+  line-height:;
+}
+
+ /* For SlideShow */
+  /* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  border: 0px solid transparent;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+/*------ slide show css--------*/
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+</head>
+</style>
+
+
+<body>
+<!-- Trigger/Open The Modal -->
+
+<!–– Cover ––>
+<div class="container1">
+  <img id="mypic1" src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd6ac29259ee3d450d64f3/1590520621513/IMG_9637+v7+website.png" alt="Avatar" class="image1" style="width:100%">
+  <div class="middle">
+    <div class="text">
+      <h5><p>20.05.20</p></h5>
+      <h4><p>VOLLER X TION WAYNE SHOOT BTS</p></h4></div>
+  </div>
+</div>
+<!–– Cover END––>
+
+<!-- The Modal -->
+<div id="myModal1" class="modal1">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h4>VOLLER X TION WAYNE SHOOT BTS</h4>
+      <h5><p> 20.05.20 </p></h5>
+    </div>
+    <div class="modal-body">   
+
+
+<!–– SlideShow ––>
+  <div class="container">
+
+	<div class=mySlides1>
+  		<img  src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9d8172e6a72aac6ac243/1590533589608/IMG_9637+v7.jpg" style="width:100%">
+		<div class="overlay">       </div>
+  	</div>
+
+
+  	<div class=mySlides1>
+  		<img  src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9ce45699191ae9bf1ac3/1590533424014/IMG_9611+v5.jpg" style="width:100%">
+  		<div class="overlay">   </div>
+  	</div>
+
+  	<div class=mySlides1>
+  		<img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9d430d634c6b2ad7d7b9/1590533475829/IMG_9612+BW.jpg" style="width:100%">
+  		<div class="overlay">    </div>
+  	</div>
+
+
+  	<div class=mySlides1>
+  		<img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecdad265060ad27ee75222b/1590537528279/DSCF2211+v4.jpg" style="width:100%">
+      <div class="overlay">   </div>
+  	</div>
+
+  <button class="prev" onclick="plusDivs(-1)">&#10094; </button>
+  <button class="next" onclick="plusDivs(1)">&#10095;  <style> .button {padding: 16px;
+  backgroung:black;
+  float:left}</style></button>
+</div>
+      
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<!–– Slideshow END ––>
+
+    </div>
+	
+<!–– Footer ––>
+    <div class="modal-footer">
+      <center><h5><p>VG collaborated with... <br/> the UK Platinum Artist Tion Wayne on the TW-IN VOLLER <br/> tracksuit, that is worn in the music video entitled <br/> "I Don't Know" by Tion Wayne, Dutchavelli & Stormzy. </p></h5></center>
+    </div>
+<!–– Footer END ––>
+  </div>
+
+</div>
+<!-- The Modal content img version -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+
+  <div id="caption"></div>
+</div>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image that opens the modal
+var btn = document.getElementById("mypic1");
+//var btn = document.getElementById("myImg");
+  
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal1.style.display = "block";
+  $('body').css('overflow', 'hidden');
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+  $('body').css('overflow', 'auto');
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+    $('body').css('overflow', 'auto');
+  }
+
+}
+
+</script>
+  </body>
+</html>
