@@ -140,19 +140,20 @@ body {
   font-size: 12px;
   padding: 0px 0px;
   position: absolute;
-  bottom: 86%;
+ /* bottom: 86%;*/
+  top:0;
   
   
   z-index: 1;
 }
 
-.numbertext2 {
+*.column .numbertext2 {
   color: #f2f2f2;
+  left:1;
   font-size: 12px;
   padding: 0px 0px;
   position: absolute;
-  bottom: 18%; 
- /*top:2;*/
+  top:1;
   z-index: 1;
 }
 
@@ -566,4 +567,3 @@ function showSlides(n, slide ) {
 
 
 </html>
-
