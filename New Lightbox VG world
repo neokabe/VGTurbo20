@@ -186,6 +186,13 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
+
+.modal-open {
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    height: 100%;
+}
 </style>
 <h2 style="text-align:center"> </h2>
 <!--images -->
@@ -477,35 +484,32 @@ img.hover-shadow {
 
 function openModal() {
 document.getElementById("myModal").style.display = "block";
+document.body.style.overflow= "Hidden";
 }
 
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
-}
+
 
 function openModal2() {
 document.getElementById("myModal2").style.display = "block";
+document.body.style.overflow= "Hidden";
 }
 
-function closeModal2() {
-  document.getElementById("myModal2").style.display = "none";
-}
+
 
 function openModal3() {
 document.getElementById("myModal3").style.display = "block";
+document.body.style.overflow= "Hidden";
 }
 
-function closeModal3() {
-  document.getElementById("myModal3").style.display = "none";
-}
 
 function openModal4() {
 document.getElementById("myModal4").style.display = "block";
+document.body.style.overflow= "Hidden";
 }
 
-function closeModal4() {
-  document.getElementById("myModal4").style.display = "none";
-}
+
+
+
 
   var slideIndex = 1;
 showSlides(slideIndex, "mySlides");
@@ -529,35 +533,47 @@ function showSlides(n, slide ) {
         if (n < 1) { slideIndex = slides.length }
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
+            
         }
         for (i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" active", "");
         }
         slides[slideIndex - 1].style.display = "block";
         //dots[slideIndex - 1].className += " active";
+        
     }
     
+
     /** button modal**/
 //var modalBtns = [...document.querySelectorAll(".overlay")];
-//    modalBtns.forEach(function (btn) {
+ //   modalBtns.forEach(function (btn) {
 //        btn.onclick = function () {
-//            var modal = btn.getAttribute('data-modal');
+ //           var modal = btn.getAttribute('data-modal');
 
-//            document.getElementById(modal).style.display = "block";
-//        }
-//    });
+ //          document.getElementByClassName(modal).style.display = "block";
+         //  document.body.style.overflow= "hidden";
+ //       }
+ //   });
+
+
 
     var closeBtns = [...document.querySelectorAll(".close")];
     closeBtns.forEach(function (btn) {
         btn.onclick = function () {
             var modal = btn.closest('.modal');
             modal.style.display = "none";
+            document.body.style.overflow= "auto";
+            
+            
         }
     });
 
     window.onclick = function (event) {
         if (event.target.className === "modal") {
             event.target.style.display = "none";
+            document.body.style.overflow= "auto";
+              
+            
         }
     }
 
