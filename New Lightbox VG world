@@ -6,6 +6,30 @@ body {
   margin: 0;
 }
 
+@media screen and (min-width: 800px) {
+*{
+box-sizing: border-box;
+padding:0px;
+}
+.column{
+padding:0px;
+}
+ 
+/* .experience-list{
+ max-width: 50%;
+ padding:0px;
+ }*/
+ .slideshow-container{
+ max-width: 50%;
+ }
+ .modal-content {
+ width:50%;
+  
+ }
+
+
+}
+
   h4 {
    font-family: 'DIN Condensed';
    font-weight: 400;
@@ -124,7 +148,7 @@ body {
 
 /* Position the "next button" to the right */
 .next {
-  right: 20px;
+  right: 485px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -140,10 +164,7 @@ body {
   font-size: 12px;
   padding: 0px 0px;
   position: absolute;
- /* bottom: 86%;*/
   top:0;
-  
-  
   z-index: 1;
 }
 
@@ -187,12 +208,7 @@ img.hover-shadow {
 
 }
 
-.modal-open {
-    overflow: hidden;
-    position:fixed;
-    width: 100%;
-    height: 100%;
-}
+
 </style>
 <h2 style="text-align:center"> </h2>
 <!--images -->
@@ -262,7 +278,7 @@ img.hover-shadow {
   <div class="overlay"> <h4><p>To end the year... <br/> VG showcased the new TURBO collection.<br/>Influenced by Monaco’s Formula 1 Grand Prix </p></h4>  </div>
     </div>
 
-                            </div>
+                            
                             
                             
                             <!---slide3-->
@@ -291,6 +307,7 @@ img.hover-shadow {
                             </div>
                         </div>
                         <span class="close" onclick="closeModal()">&times;</span>
+                      </div>
                     </div>
                 </div>
            
@@ -322,7 +339,7 @@ img.hover-shadow {
   <div class="overlay"> <h4><p>Voller Gewinn collaborated with... <br/> the UK Artist Tion Wayne on the Twin VOLLER<br/> tracksuit, that is worn in the music video<br/> of his uk top 10 single entitled  "I Dunno" <br/>featuring  Dutchavelli & Stormzy.</p></h4>  </div>
     </div>
 
-                            </div>
+                            
                             
                             <!---slide3-->
                             <div class="mySlides2 fade">
@@ -365,6 +382,7 @@ img.hover-shadow {
                         </div>
                         <span class="close" onclick="closeModal2()">&times;</span>
                     </div>
+                  </div>
                 </div>
            
                 
@@ -410,12 +428,13 @@ img.hover-shadow {
                             <a class="next" onclick="plusSlides(1,'mySlides3')">&#10095;</a>
                                
 
-                        </div>
+                        
                         <div class="modal-info">
                             <div class="modal-details">
                             </div>
                         </div>
                         <span class="close" onclick="closeModal3()">&times;</span>
+                      </div>
                     </div>
                 </div>
                 
@@ -448,7 +467,7 @@ img.hover-shadow {
   <div class="overlay"> <h4><p>Voller Gewinn's first release... <br/>was the black wolf t-shirt <br/> a stand out entrance piece</p></h4>  </div>
     </div>
 
-                            </div>
+                            
                             
                             <!---slide3-->
                             <div class="mySlides4 fade">
@@ -469,13 +488,15 @@ img.hover-shadow {
                             <a class="next" onclick="plusSlides(1,'mySlides4')">&#10095;</a>
                             
 
-                        </div>
+                        
                         <div class="modal-info">
                             <div class="modal-details">
                             </div>
                         </div>
                         <span class="close" onclick="closeModa4l()">&times;</span>
+                      </div>
                     </div>
+                  </div>
                 
             
 <!--SLIDESHOW-->
