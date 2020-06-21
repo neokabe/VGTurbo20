@@ -6,50 +6,65 @@ body {
   margin: 0;
 }
 
+
 @media screen and (min-width: 800px) {
 *{
-box-sizing: border-box;
+ font-family: Verdana, sans-serif;
+/*box-sizing: border-box;*/
 padding:0px;
 }
 .column{
 padding:0px;
 }
  
-/* .experience-list{
- max-width: 50%;
- padding:0px;
- }*/
  .slideshow-container{
+ font-family: Verdana, sans-serif;
  max-width: 50%;
+ display:inline-block;
+ text-align:left;
  }
- .modal-content {
- width:50%;
-  
- }
- 
- h4 {
- font-size:1em;
- }
+
 
 .slideshow-container .next {
   right: 50%;
-
 }
 
+.slideshow-container .img{
+ position:relative;
+ float:left;
 }
+
+.slideshow-container .overlay{
+display:inline-block;
+vertical-align:top;
+/*overflow:auto;
+word-wrap: break-word;*/
+padding:0 20px;
+}
+
+
+/*end of media */
+ }
+ 
 
   h4 {
-   font-family: 'DIN Condensed';
+   font-family:Verdana, sans-serif;
    font-weight: 400;
    font-style: normal;
    font-size: 1.5em;
    letter-spacing: .1em;
    text-transform: uppercase;
    line-height: 1.5em;
+   white-space: initial;
+   
+   
+   /*remove this scroll */
+   /*overflow: auto;*/
 } 
 
     h5 {
    font-family: 'DIN Condensed';
+   font-family:Verdana, sans-serif;
    font-weight: 400;
    font-style: normal;
    font-size: 1.2em;
@@ -94,6 +109,7 @@ padding:0px;
 
 /* Modal Content */
 .modal-content {
+  font-family:Verdana, sans-serif;
   position: relative;
   background-color: #fefefe;
   margin: auto;
@@ -101,14 +117,14 @@ padding:0px;
   border: 1px solid #888;
   width: 90%;
   max-width: 1200px;
-  height: auto;
+ /* height: auto;*/
   overflow: auto;
   white-space: nowrap;
 }
 
 /* The Close Button */
 .close {
-  color: white;
+  color: black;
   position: absolute;
   top: 60px;
   right: 25px;
@@ -121,6 +137,7 @@ padding:0px;
   color: #999;
   text-decoration: none;
   cursor: pointer;
+  
 }
 
 .mySlides {
@@ -172,7 +189,8 @@ padding:0px;
   font-size: 12px;
   padding: 0px 0px;
   position: absolute;
-  top:0;
+  top:1;
+  left:1;
   z-index: 1;
 }
 
@@ -182,11 +200,13 @@ padding:0px;
   font-size: 12px;
   padding: 0px 0px;
   position: absolute;
-  top:1;
+  top:2;
+  left:1;
   z-index: 1;
 }
 
 img {
+ Display:inline-block;
   margin-bottom: -4px;
 
 }
@@ -196,6 +216,8 @@ img {
   background-color: white;
   padding: 2px 16px;
   color: black;
+  /** this test**/
+ overflow:auto;
 }
 
 .demo {
@@ -215,6 +237,7 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
+
 
 
 </style>
@@ -274,16 +297,18 @@ img.hover-shadow {
                         <!---slide1-->
                             <div class="mySlides fade">
                             <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h4> </div>
-                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed6eb4ac9c4c8758c6a8ac2/1591143253427/Astrid+Danny.jpg" style="width:100%" />
-                                <div class="overlay"> <h4><p>To end the year... <br/> VG showcased the new TURBO collection.<br/>Influenced by Monaco’s Formula 1 Grand Prix </p></h4>  </div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed6eb4ac9c4c8758c6a8ac2/1591143253427/Astrid+Danny.jpg" style="width:100%"/>
+     <div class="overlay"> <h4><p>To end the year... <br/> VG showcased the new TURBO collection.<br/>Influenced by Monaco’s<br/> Formula 1 Grand Prix </p></h4>  </div>
+     
                             </div>
                             
                             
                             <!---slide2-->
                             <div class="mySlides fade">
                                 <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h4> </div>
-                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed6eb0d160e39066d28e3f3/1591143192819/astrid+bts.jpg" style="width:100%" />
-  <div class="overlay"> <h4><p>To end the year... <br/> VG showcased the new TURBO collection.<br/>Influenced by Monaco’s Formula 1 Grand Prix </p></h4>  </div>
+                                <img  src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed6eb0d160e39066d28e3f3/1591143192819/astrid+bts.jpg" style="width:100%" />
+  <div class="overlay"> <h4><p>To end the year... <br/> VG showcased the new TURBO collection.<br/>Influenced by Monaco’s<br/> Formula 1 Grand Prix </p></h4>  </div>
+  
     </div>
 
                             
@@ -293,14 +318,14 @@ img.hover-shadow {
                                <div class="mySlides fade">
                                 <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h4> </div>
                                 <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5eda89863c33987be16a3371/1591380381102/milan+bts.jpg" style="width:100%" />
-      <div class="overlay"> <h4><p>To end the year... <br/> VG showcased the new TURBO collection.<br/>Influenced by Monaco’s Formula 1 Grand Prix </p></h4>  </div>
+      <div class="overlay"> <h4><p>To end the year... <br/> VG showcased the new TURBO collection.<br/>Influenced by Monaco’s<br/> Formula 1 Grand Prix </p></h4>  </div>
                             </div>
                             
                                                         <!---slide4-->
                                <div class="mySlides fade">
                                 <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h4> </div>
                                 <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed6eaeedee6ad38b6bb7e37/1591143169892/Danny+Debz+v2.jpg" style="width:100%" />
-      <div class="overlay"> <h4><p>To end the year... <br/> VG showcased the new TURBO collection.<br/>Influenced by Monaco’s Formula 1 Grand Prix </p></h4>  </div>
+      <div class="overlay"> <h4><p>To end the year... <br/> VG showcased the new TURBO collection.<br/>Influenced by Monaco’s<br/> Formula 1 Grand Prix </p></h4>  </div>
                             </div>
                             
 
@@ -413,21 +438,21 @@ img.hover-shadow {
                             <div class="numbertext"><h4 style="background-color:Black;">&nbsp 17.02.19 &nbsp<p>&nbsp London Fashion Week &nbsp</p> </h4></div>
                                 
                                 <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed9634d4e1d8e6f5022cfdd/1591305089988/lfw-oxo.jpg" style="width:100%" />
-                                  <div class="overlay"> <h4><p>Voller Gewinn opened at... <br/>a London Fashion Week private showcase at <br/> the OXO Tower, showcasing exclusive pieces <br/> from the wolf collection</p></h4> </div>
+                                  <div class="overlay"> <h4><p>Voller Gewinn opened at... <br/>a London Fashion Week private showcase at the OXO Tower, showcasing exclusive pieces <br/> from the wolf collection</p></h4> </div>
                             </div>
               <!--SLIDE 2-->
                             <div class="mySlides3 fade">
                             <div class="numbertext"><h4 style="background-color:Black;">&nbsp 17.02.19 &nbsp<p>&nbsp London Fashion Week &nbsp</p> </h4></div>
                                 
                                 <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed9639942f1990bb924b7c2/1591305149188/IMG_9612+BW-lfw.jpg" style="width:100%" />
-                                    <div class="overlay"> <h4><p>Voller Gewinn opened at... <br/>a London Fashion Week private showcase at <br/> the OXO Tower, showcasing exclusive pieces <br/> from the wolf collection</p></h4>  </div>
+                                    <div class="overlay"> <h4><p>Voller Gewinn opened at... <br/>a London Fashion Week private showcase at the OXO Tower, showcasing exclusive pieces <br/> from the wolf collection</p></h4>  </div>
                             </div>
                 <!--SLIDE 3-->
                             <div class="mySlides3 fade">
                               <div class="numbertext"><h4 style="background-color:Black;">&nbsp 17.02.19 &nbsp<p>&nbsp London Fashion Week &nbsp</p> </h4></div>
                                 
                                 <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed963d674f3f02b25441a8c/1591305208845/danny+lfw.jpg" style="width:100%"/>
-                              <div class="overlay"> <h4><p>Voller Gewinn opened at... <br/>a London Fashion Week private showcase at <br/> the OXO Tower, showcasing exclusive pieces <br/> from the wolf collection</p></h4>  </div>
+                              <div class="overlay"> <h4><p>Voller Gewinn opened at... <br/>a London Fashion Week private showcase at the OXO Tower, showcasing exclusive pieces <br/> from the wolf collection</p></h4>  </div>
                             </div>
                            
                             
@@ -464,7 +489,7 @@ img.hover-shadow {
                             <div class="mySlides4 fade">
                             <div class="numbertext"><h4 style="background-color:Black;">&nbsp 04.10.18 &nbsp<p>&nbsp Wolf T-Shirts &nbsp</p> </h4></div>
                                 <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed943066833461c21d9b61b/1591296815616/IMG_9612+BW+v2.jpg" style="width:100%" />
-                                <div class="overlay"> <h4><p>Voller Gewinn's first release... <br/>was the black wolf t-shirt <br/> a stand out entrance piece </p></h4>  </div>
+                                <div class="overlay"> <h4><p>Voller Gewinn's first release... <br/>was the black wolf t-shirt a stand out entrance piece </p></h4>  </div>
                             </div>
                             
                             
@@ -472,7 +497,7 @@ img.hover-shadow {
                             <div class="mySlides4 fade">
                                 <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 04.10.18 &nbsp<p>&nbsp Wolf T-Shirts &nbsp</p> </h4> </div>
                                 <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed942a3c76e285bcc29c72d/1591296749370/Riise+Wolf+Tshirt.jpg" style="width:100%" />
-  <div class="overlay"> <h4><p>Voller Gewinn's first release... <br/>was the black wolf t-shirt <br/> a stand out entrance piece</p></h4>  </div>
+  <div class="overlay"> <h4><p>Voller Gewinn's first release... <br/>was the black wolf t-shirt a stand out entrance piece</p></h4>  </div>
     </div>
 
                             
@@ -481,14 +506,14 @@ img.hover-shadow {
                             <div class="mySlides4 fade">
                                 <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 04.10.18 &nbsp<p>&nbsp Wolf T-Shirts &nbsp</p> </h4> </div>
                                 <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed94c8f4830df29e1e2e14b/1591299276306/IMG_9612+BW+lighter+v2.jpg" style="width:100%" />
-      <div class="overlay"> <h4><p>Voller Gewinn's first release... <br/>was the black wolf t-shirt <br/> a stand out entrance piece</p></h4>  </div>
+      <div class="overlay"> <h4><p>Voller Gewinn's first release... <br/>was the black wolf t-shirt a stand out entrance piece</p></h4>  </div>
                             </div>
                             
                             <!---slide4-->
                                <div class="mySlides4 fade">
                                 <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 04.10.18 &nbsp<p>&nbsp Wolf T-Shirts &nbsp</p> </h4> </div>
                                 <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5eda8ebbbe86af28357ddb40/1591381705498/LRG__DSC1236+lighter.jpg" style="width:100%" />
-      <div class="overlay"> <h4><p>Voller Gewinn's first release... <br/>was the black wolf t-shirt <br/> a stand out entrance piece</p></h4>  </div>
+      <div class="overlay"> <h4><p>Voller Gewinn's first release... <br/>was the black wolf t-shirt a stand out entrance piece</p></h4>  </div>
                             </div>
                             
 
