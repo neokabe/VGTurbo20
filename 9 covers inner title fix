@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html>
+<head><link href="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ef726f3287bbd2ec26aa670/1593255667533/DIN-Regular.ttf" rel="stylesheet"></head>
+<style>
+ @font-face {
+  font-family: 'DIN Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('DIN Condensed'), local('Din-Condensed'), url(https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ef726f3287bbd2ec26aa670/1593255667533/DIN-Regular.ttf) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+ @font-face {
+  font-family: 'Sans Seriff';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2em;
+   letter-spacing: .1em;
+   text-transform: uppercase;
+   line-height: 1.1em;
+  font-display: swap;
+  src: local('DIN Condensed Bold'), local('Din-Condensed-Bold '), url(https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ef7271f5708dc5cb9ab871b/1593255711278/DIN-Bold.ttf) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  font-family: , Arial, Helvetica, sans-serif, 'DIN Condensed', 'DIN Condensed';
+  margin: 0;
+  
+}
+
+
+@media screen and (min-width: 800px) {
+*{
+ font-family: Verdana, sans-serif;
+/*box-sizing: border-box;*/
+padding:0px;
+}
+.column{
+padding:0px;
+}
+ 
+ .slideshow-container{
+ font-family: Verdana, sans-serif;
+ max-width: 50%;
+ display:inline-block;
+ text-align:left;
+ }
+
+
+.slideshow-container .next {
+  right: 50%;
+}
+
+.slideshow-container .img{
+ position:relative;
+ float:left;
+}
+
+.slideshow-container .overlay{
+display:inline-block;
+vertical-align:top;
+/*overflow:auto;*/
+word-wrap: break-word;
+padding:0 20px;
+}
+
+
+.slideshow-container .overlay .Tbox{
+border:40px ;
+padding:60 60px;
+white-space: -moz-pre-wrap;
+text-align: center;
+
+}
+.overlay p{
+
+border: 5px ;
+padding: 5px;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 5px 0px;
+  position: absolute;
+  top:0;
+  left:1;
+  z-index: 1;
+}
+
+*.column .numbertext2 {
+  color: #f2f2f2;
+  left:1;
+  font-size: 12px;
+  padding: 0px 0px;
+  position: absolute;
+  top:2;
+  left:1;
+  z-index: 1;
+}
+
+
+/*end of media */
+ }
+ 
+
+  h4 {
+  font-family: Verdana, sans-serif;
+  font-family: 'DIN Condensed';
+   font-weight: 400;
+   font-style: normal;
+   font-size: 1.5em;
+   letter-spacing: .1em;
+   text-transform: uppercase;
+   line-height: 1.5em;
+   white-space: initial;
+    font-feature-settings: "kern" 1;
+  font-kerning: normal;
+   
+   /*remove this scroll */
+   /*overflow: auto;*/
+} 
+
+    h5 {
+    font-family: Verdana, sans-serif;
+   font-family: 'DIN Condensed';
+   font-weight: 400;
+   font-style: normal;
+   font-size: 1.2em;
+   letter-spacing: .1em;
+   text-transform: uppercase;
+   line-height: 1.1em;
+   font-feature-settings: "kern" 1;
+   font-kerning: normal;
+} 
+
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  font-family: Verdana, sans-serif;
+  font-family: 'DIN Condensed';
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%;
+  max-width: 1200px;
+ /* height: auto;*/
+  overflow: auto;
+  white-space: nowrap;
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  position: absolute;
+  top: 60px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+.mySlides {
+  display: none;
+}
+
+
+
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  border: 0px solid transparent;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 20px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 6px;
+  padding: 8px 0px;
+  position: absolute;
+  top:0;
+  left:1;
+  z-index: 1;
+}
+
+*.column .numbertext2 {
+  color: #f2f2f2;
+  font-size: 6px;
+  padding: 0px 0px;
+  position: absolute;
+  top:2; 
+  left:1;
+  z-index: 1;
+}
+
+img {
+ display:inline-block;
+  margin-bottom: -4px;
+
+}
+
+.caption-container {
+  text-align: center;
+  background-color: white;
+  padding: 2px 16px;
+  color: black;
+  /** this test**/
+ overflow:auto;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+</style>
+<h2 style="text-align:center"> </h2>
+<!--images -->
+<div class="row">
+
+   <!-- Sixth cover-->
+    <div class="column">
+    <div class="numbertext2"><h5 style="background-color:Black;">&nbsp 06.10.20 &nbsp<p>&nbsp Title 6 here &nbsp</p> </h5></div>
+    <div class="experience-list exper6 overlay" id="myBtn6" onclick="openModal6();" data-modal="myModal6" >
+    <img src="https://c.files.bbci.co.uk/8303/production/_105193533_mediaitem105193532.jpg" style="width:100%" onclick="openModal6();currentSlide4(1)" class="hover-shadow cursor">
+  </div>
+  </div>
+  
+  <!-- seventh cover-->
+    <div class="column">
+    <div class="numbertext2"><h5 style="background-color:Black;">&nbsp 07.10.20 &nbsp<p>&nbsp Title 7 here &nbsp</p> </h5></div>
+    <div class="experience-list exper7 overlay" id="myBtn7" onclick="openModal7();" data-modal="myModal7" >
+    <img src="https://www.lovellsoccer.co.uk/products/products_new/285198.jpg" style="width:100%" onclick="openModal7();currentSlide4(1)" class="hover-shadow cursor">
+  </div>
+  </div>
+ 
+    <!-- Eighth cover -->
+    <div class="column">
+    <div class="numbertext2"><h5 style="background-color:Black;">&nbsp 08.10.20 &nbsp<p>&nbsp Tite 8 here &nbsp</p> </h5></div>
+    <div class="experience-list exper8 overlay" id="myBtn8" onclick="openModal8();" data-modal="myModal8" >
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQS-NIVA9UMod2aNskNovzHej6eaqe6KzyxXA&usqp=CAU" style="width:100%" onclick="openModal8();currentSlide8(1)" class="hover-shadow cursor">
+  </div>
+  </div>
+  
+    <!-- Ninth cover-->
+    <div class="column">
+    <div class="numbertext2"><h5 style="background-color:Black;">&nbsp 09.10.20 &nbsp<p>&nbsp Title 9 here &nbsp</p> </h5></div>
+    <div class="experience-list exper9 overlay" id="myBtn9" onclick="openModal9();" data-modal="myModal9" >
+    <img src="https://www.ridestore.com/mag/wp-content/uploads/2019/07/how-to-jump-on-a-snowboard1.jpg" style="width:100%" onclick="openModal9();currentSlide9(1)" class="hover-shadow cursor">
+  </div>
+  </div>  
+
+  <!-- fith cover-->
+  <div class="column">
+  <div class="numbertext2"><h5 style="background-color:Black;">&nbsp 01.06.20 &nbsp<p>&nbsp new SHOOT BTS &nbsp</p> </h5></div>
+  <div class="experience-list exper5 overlay" id="myBtn5" onclick="openModal5();" data-modal="myModal5" >
+  <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5eda917c35d90a64cf3ada3e/1591382423635/danny+astrid+cover.jpg" class="exp-image hover-shadow cursor" style="width:100%" onclick="openModal5();currentSlide5(1)" class="hover-shadow cursor"/>
+  </div>
+  </div>
+  
+  <!-- first-->
+
+  <div class="column">
+  <div class="numbertext2"> <h5 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE BTS &nbsp</p> </h5> </div>
+  <div class="experience-list exper2 overlay" id="myBtn2"onclick="openModal2();" data-modal="myModal2">
+                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5eda8f98bd09b7280f95112d/1591381937896/IMG_9637+v7cover+v2.jpg" class="exp-image hover-shadow cursor" class="exp-image hover-shadow cursor" style="width:100%"  /> <!-- image is larger so has to be scaled with img 3 to fix format-->
+    </div>
+   </div>
+    
+<!-- second cover-->
+<div class="column">
+  <div class="numbertext2"><h5 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h5></div>
+  <div class="experience-list exper1 overlay" id="myBtn" onclick="openModal();" data-modal="myModal" >
+                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5eda917c35d90a64cf3ada3e/1591382423635/danny+astrid+cover.jpg" class="exp-image hover-shadow cursor" style="width:100%"/>
+    </div>
+  </div>
+  
+ 
+     <!-- Third cover-->
+    <div class="column">
+    <div class="numbertext2"><h5 style="background-color:Black;">&nbsp 17.02.19 &nbsp<p>&nbsp LONDON FASHION WEEK &nbsp</p> </h5></div>
+    <div class="experience-list exper3 overlay" id="myBtn3" onclick="openModal3();" data-modal="myModal3">
+    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed963115e6be5361eeb0b44/1591305011818/lfw-oxo-cover.jpg" style="width:100%" onclick="openModal3();currentSlide3(1)" class="hover-shadow cursor">
+  </div>
+    </div>
+    
+    <!-- fourth cover-->
+    <div class="column">
+    <div class="numbertext2"><h5 style="background-color:Black;">&nbsp 04.10.18 &nbsp<p>&nbsp Wolf T-Shirts &nbsp</p> </h5></div>
+    <div class="experience-list exper4 overlay" id="myBtn4" onclick="openModal4();" data-modal="myModal4" >
+    <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed943777a46b30219cd19e8/1591296908663/IMG_9637+v7cover.jpg" style="width:100%" onclick="openModal4();currentSlide4(1)" class="hover-shadow cursor">
+  </div>
+  </div>
+  
+  
+ 
+    
+</div>
+</div>
+
+
+
+<!---********* First modal slide show******* ---->
+
+                
+      
+              <div class="exper-title"></div>
+                 <div class="exper-info">
+           </div>
+                
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+
+
+                        <div class="slideshow-container">
+                        <!---slide1-->
+                            <div class="mySlides fade">
+                            <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h4> </div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed6eb4ac9c4c8758c6a8ac2/1591143253427/Astrid+Danny.jpg" style="width:100%"/>
+     <div class="overlay "> <h4><p>To end the year... VG showcased the new TURBO collection. Influenced by Monaco’s Formula 1 Grand Prix </p></h4>  </div>
+     
+                            </div>
+                            
+                            
+                            <!---slide2-->
+                            <div class="mySlides fade">
+                                <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h4> </div>
+                                <img  src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed6eb0d160e39066d28e3f3/1591143192819/astrid+bts.jpg" style="width:100%" />
+  <div class="overlay"> <h4><p>To end the year... VG showcased the new TURBO collection. Influenced by Monaco’s Formula 1 Grand Prix </p></h4>  </div>
+  
+    </div>
+
+                            
+                            
+                            
+                            <!---slide3-->
+                               <div class="mySlides fade">
+                                <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h4> </div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5eda89863c33987be16a3371/1591380381102/milan+bts.jpg" style="width:100%" />
+      <div class="overlay"> <h4><p>To end the year... VG showcased the new TURBO collection. Influenced by Monaco’s Formula 1 Grand Prix </p></h4>  </div>
+                            </div>
+                            
+                                                        <!---slide4-->
+                               <div class="mySlides fade">
+                                <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 01.12.19 &nbsp<p>&nbsp TURBO SHOOT BTS &nbsp</p> </h4> </div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed6eaeedee6ad38b6bb7e37/1591143169892/Danny+Debz+v2.jpg" style="width:100%" />
+      <div class="overlay"> <h4><p>To end the year... VG showcased the new TURBO collection. Influenced by Monaco’s Formula 1 Grand Prix </p></h4>  </div>
+                            </div>
+                            
+
+                            <a class="prev" onclick="plusSlides(-1,'mySlides')">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1,'mySlides')">&#10095;</a>
+                            <div class="caption-container">
+      <p id="caption"></p>
+
+                        </div>
+                        <div class="modal-info">
+                            <div class="modal-details">
+                            </div>
+                        </div>
+                        <span class="close" onclick="closeModal()">&times;</span>
+                      </div>
+                    </div>
+                </div>
+           
+<!-----********second modal slideshow******* ------>
+                
+
+           <div class="exper-details">
+                    <div class="exper-title"></div>
+                    <div class="exper-info"></div>
+               </div>
+              
+               <div id="myModal2" class="modal">
+                   <div class="modal-content">
+
+
+                      <div class="slideshow-container">
+                          <!---slide1-->
+                            <div class="mySlides2 fade">
+                            <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9d8172e6a72aac6ac243/1590533589608/IMG_9637+v7.jpg" style="width:100%" />
+                                <div class="overlay"> <h4><p>Voller Gewinn collaborated with... the UK Artist Tion Wayne on the Twin VOLLER tracksuit, that is worn in the music video of his uk top 10 single entitled  "I Dunno" <br/>featuring  Dutchavelli & Stormzy.</p></h4>  </div>
+                            </div>
+                            
+                            
+                            <!---slide2-->
+                            <div class="mySlides2 fade">
+                                <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9ce45699191ae9bf1ac3/1590533424014/IMG_9611+v5.jpg" style="width:100%" />
+  <div class="overlay"> <h4><p>Voller Gewinn collaborated with... the UK Artist Tion Wayne on the Twin VOLLER tracksuit, that is worn in the music video of his uk top 10 single entitled  "I Dunno" featuring  Dutchavelli & Stormzy.</p></h4>  </div>
+    </div>
+
+                            
+                            
+                            <!---slide3-->
+                            <div class="mySlides2 fade">
+                                <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ecd9d430d634c6b2ad7d7b9/1590533475829/IMG_9612+BW.jpg" style="width:100%" />
+      <div class="overlay"> <h4><p>Voller Gewinn collaborated with... the UK Artist Tion Wayne on the Twin VOLLER<br/> tracksuit, that is worn in the music video<br/> of his uk top 10 single entitled  "I Dunno" featuring  Dutchavelli & Stormzy.</p></h4>  </div>
+                            </div>                   
+                          
+                                                        <!---slide4-->
+                               <div class="mySlides2 fade">
+                                <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5eda7670a195c165e8bed77d/1591375536560/tion+stormzy+dutch.jpg" style="width:100%" />
+      <div class="overlay"> <h4><p>Voller Gewinn collaborated with... the UK Artist Tion Wayne on the Twin VOLLER tracksuit, that is worn in the music video of his uk top 10 single entitled  "I Dunno" featuring  Dutchavelli & Stormzy.</p></h4>  </div>
+                            </div>
+                            
+                                                                                    <!---slide5-->
+                               <div class="mySlides2 fade">
+                                <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5eda75f17182ac1d425e4e9c/1591375408437/voller+x+Tion+BTSs.jpg" style="width:100%" />
+      <div class="overlay"> <h4><p>Voller Gewinn collaborated with... the UK Artist Tion Wayne on the Twin VOLLER tracksuit, that is worn in the music video of his uk top 10 single entitled  "I Dunno" featuring  Dutchavelli & Stormzy.</p></h4>  </div>
+                            </div>
+                            
+                            <!---slide6-->
+                               <div class="mySlides2 fade">
+                                <div class="numbertext"><h4 style="background-color:Black;">&nbsp 20.05.20 &nbsp<p>&nbsp VOLLER X TION WAYNE SHOOT BTS &nbsp</p> </h4></div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5eda771c7182ac1d425e8642/1591375685690/tion+bts+v22.jpg" style="width:100%" />
+      <div class="overlay"> <h4><p>Voller Gewinn collaborated with... the UK Artist Tion Wayne on the Twin VOLLER tracksuit, that is worn in the music video of his uk top 10 single entitled  "I Dunno" featuring  Dutchavelli & Stormzy.</p></h4>  </div>
+                            </div>
+                            
+
+                            <a class="prev" onclick="plusSlides(-1,'mySlides2')">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1,'mySlides2')">&#10095;</a>
+                            <div class="caption-container">
+      <p id="caption"></p>
+
+                        </div>
+                        <div class="modal-info">
+                            <div class="modal-details">
+                            </div>
+                        </div>
+                        <span class="close" onclick="closeModal2()">&times;</span>
+                    </div>
+                  </div>
+                </div>
+           
+                
+                
+                
+                
+                
+                <!--Third  modal -->
+                <div class="exper-details">
+                        <div class="exper-title"></div>
+                        <div class="exper-info"></div>
+                    </div>
+              
+                <div id="myModal3" class="modal">
+                    <div class="modal-content">
+
+              <!--SLIDE 1-->
+                        <div class="slideshow-container">
+                            <div class="mySlides3 fade">
+                            <div class="numbertext"><h4 style="background-color:Black;">&nbsp 17.02.19 &nbsp<p>&nbsp London Fashion Week &nbsp</p> </h4></div>
+                                
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed9634d4e1d8e6f5022cfdd/1591305089988/lfw-oxo.jpg" style="width:100%" />
+                                  <div class="overlay"> <h4><p>Voller Gewinn opened at... a London Fashion Week private showcase at the OXO Tower, showcasing exclusive pieces from the wolf collection</p></h4> </div>
+                            </div>
+              <!--SLIDE 2-->
+                            <div class="mySlides3 fade">
+                            <div class="numbertext"><h4 style="background-color:Black;">&nbsp 17.02.19 &nbsp<p>&nbsp London Fashion Week &nbsp</p> </h4></div>
+                                
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed9639942f1990bb924b7c2/1591305149188/IMG_9612+BW-lfw.jpg" style="width:100%" />
+                                    <div class="overlay"> <h4><p>Voller Gewinn opened at... a London Fashion Week private showcase at the OXO Tower, showcasing exclusive pieces from the wolf collection</p></h4>  </div>
+                            </div>
+                <!--SLIDE 3-->
+                            <div class="mySlides3 fade">
+                              <div class="numbertext"><h4 style="background-color:Black;">&nbsp 17.02.19 &nbsp<p>&nbsp London Fashion Week &nbsp</p> </h4></div>
+                                
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed963d674f3f02b25441a8c/1591305208845/danny+lfw.jpg" style="width:100%"/>
+                              <div class="overlay"> <h4><p>Voller Gewinn opened at... a London Fashion Week private showcase at the OXO Tower, showcasing exclusive pieces from the wolf collection</p></h4>  </div>
+                            </div>
+                           
+                            
+
+                            <a class="prev" onclick="plusSlides(-1,'mySlides3')">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1,'mySlides3')">&#10095;</a>
+                               
+
+                        
+                        <div class="modal-info">
+                            <div class="modal-details">
+                            </div>
+                        </div>
+                        <span class="close" onclick="closeModal3()">&times;</span>
+                      </div>
+                    </div>
+                </div>
+                
+                
+                
+                <!--Fourth Modal-->
+                
+                
+                 <div class="exper-details">
+                        <div class="exper-title"></div>
+                        <div class="exper-info"></div>
+                    </div>
+              
+                <div id="myModal4" class="modal">
+                    <div class="modal-content">
+
+
+                        <div class="slideshow-container">
+                        <!---slide1-->
+                            <div class="mySlides4 fade">
+                            <div class="numbertext"><h4 style="background-color:Black;">&nbsp 04.10.18 &nbsp<p>&nbsp Wolf T-Shirts &nbsp</p> </h4></div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed943066833461c21d9b61b/1591296815616/IMG_9612+BW+v2.jpg" style="width:100%" />
+                                <div class="overlay"> <h4><p>Voller Gewinn's first release... was the black wolf t-shirt a stand out entrance piece </p></h4>  </div>
+                            </div>
+                            
+                            
+                            <!---slide2-->
+                            <div class="mySlides4 fade">
+                                <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 04.10.18 &nbsp<p>&nbsp Wolf T-Shirts &nbsp</p> </h4> </div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed942a3c76e285bcc29c72d/1591296749370/Riise+Wolf+Tshirt.jpg" style="width:100%" />
+  <div class="overlay"> <h4><p>Voller Gewinn's first release... was the black wolf t-shirt a stand out entrance piece</p></h4>  </div>
+    </div>
+
+                            
+                            
+                            <!---slide3-->
+                            <div class="mySlides4 fade">
+                                <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 04.10.18 &nbsp<p>&nbsp Wolf T-Shirts &nbsp</p> </h4> </div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed94c8f4830df29e1e2e14b/1591299276306/IMG_9612+BW+lighter+v2.jpg" style="width:100%" />
+      <div class="overlay"> <h4><p>Voller Gewinn's first release... was the black wolf t-shirt a stand out entrance piece</p></h4>  </div>
+                            </div>
+                            
+                            <!---slide4-->
+                               <div class="mySlides4 fade">
+                                <div class="numbertext"> <h4 style="background-color:Black;">&nbsp 04.10.18 &nbsp<p>&nbsp Wolf T-Shirts &nbsp</p> </h4> </div>
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5eda8ebbbe86af28357ddb40/1591381705498/LRG__DSC1236+lighter.jpg" style="width:100%" />
+      <div class="overlay"> <h4><p>Voller Gewinn's first release... was the black wolf t-shirt a stand out entrance piece</p></h4>  </div>
+                            </div>
+                            
+
+                            <a class="prev" onclick="plusSlides(-1,'mySlides4')">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1,'mySlides4')">&#10095;</a>
+                            
+
+                        
+                        <div class="modal-info">
+                            <div class="modal-details">
+                            </div>
+                        </div>
+                        <span class="close" onclick="closeModa4l()">&times;</span>
+                      </div>
+                    </div>
+                  </div>
+                
+            
+            
+            
+             <!--Fifth  modal -->
+                <div class="exper-details">
+                        <div class="exper-title"></div>
+                        <div class="exper-info"></div>
+                    </div>
+              
+                <div id="myModal5" class="modal">
+                    <div class="modal-content">
+
+              <!--SLIDE 1-->
+                        <div class="slideshow-container">
+                            <div class="mySlides5 fade">
+                            <div class="numbertext"><h4 style="background-color:Black;">&nbsp 01.06.20 &nbsp<p>&nbsp London Fashion Week &nbsp</p> </h4></div>
+                                
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed9634d4e1d8e6f5022cfdd/1591305089988/lfw-oxo.jpg" style="width:100%" />
+                                  <div class="overlay"> <h4><p>Voller Gewinn opened at... a new shot text, showcasing exclusive pieces  from the new collection</p></h4> </div>
+                            </div>
+              <!--SLIDE 2-->
+                            <div class="mySlides5 fade">
+                            <div class="numbertext"><h4 style="background-color:Black;">&nbsp 01.06.20 &nbsp<p>&nbsp London Fashion Week &nbsp</p> </h4></div>
+                                
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed9639942f1990bb924b7c2/1591305149188/IMG_9612+BW-lfw.jpg" style="width:100%" />
+                                    <div class="overlay"> <h4><p>Voller Gewinn opened at... a new shot text, showcasing exclusive pieces from the new collection</p></h4>  </div>
+                            </div>
+                <!--SLIDE 3-->
+                            <div class="mySlides5 fade">
+                              <div class="numbertext"><h4 style="background-color:Black;">&nbsp 01.06.20 &nbsp<p>&nbsp London Fashion Week &nbsp</p> </h4></div>
+                                
+                                <img src="https://static1.squarespace.com/static/5bc399e4797f74350421842d/t/5ed963d674f3f02b25441a8c/1591305208845/danny+lfw.jpg" style="width:100%"/>
+                              <div class="overlay"> <h4><p>Voller Gewinn opened at... a new shot text, showcasing exclusive pieces from the new collection</p></h4>  </div>
+                            </div>
+                           
+                            
+
+                            <a class="prev" onclick="plusSlides(-1,'mySlides5')">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1,'mySlides5')">&#10095;</a>
+                               
+
+                        
+                        <div class="modal-info">
+                            <div class="modal-details">
+                            </div>
+                        </div>
+                        <span class="close" onclick="closeModal5()">&times;</span>
+                      </div>
+                    </div>
+                </div>
+            
+            
+            
+            
+            
+            
+            <!--Sixth  modal -->
+                <div class="exper-details">
+                        <div class="exper-title"></div>
+                        <div class="exper-info"></div>
+                    </div>
+              
+                <div id="myModal6" class="modal">
+                    <div class="modal-content">
+
+              <!--SLIDE 1-->
+                        <div class="slideshow-container">
+                            <div class="mySlides6 fade">
+                            <div class="numbertext"><h4 style="background-color:Black;">&nbsp 06.10.20 &nbsp<p>&nbsp Title Here &nbsp</p> </h4></div>
+                                
+                                <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT-homCLcHN0Sy7vN1hc5SNpLOjz1MRSi2-dg&usqp=CAU" style="width:100%" />
+                                  <div class="overlay"> <h4><p>Voller Gewinn opened at... a London Fashion Week private showcase at the OXO Tower, showcasing exclusive pieces from the wolf collection</p></h4> </div>
+                            </div>
+              <!--SLIDE 2-->
+                            <div class="mySlides6 fade">
+                            <div class="numbertext"><h4 style="background-color:Black;">&nbsp 17.02.19 &nbsp<p>&nbsp Title Here &nbsp</p> </h4></div>
+                                
+                                <img src="Second_IMG_link here" style="width:100%" />
+                                    <div class="overlay"> <h4><p>Voller Gewinn opened at... a Title Here private showcase at the OXO Tower, showcasing exclusive pieces from the wolf collection</p></h4>  </div>
+                            </div>
+                <!--SLIDE 3-->
+                            <div class="mySlides6 fade">
+                              <div class="numbertext"><h4 style="background-color:Black;">&nbsp 17.02.19 &nbsp<p>&nbsp Title Here &nbsp</p> </h4></div>
+                                
+                                <img src="Third_IMG_link" style="width:100%"/>
+                              <div class="overlay"> <h4><p>Voller Gewinn opened at... a London Fashion Week private showcase at the OXO Tower, showcasing exclusive pieces from the wolf collection</p></h4>  </div>
+                            </div>
+                           
+                            
+
+                            <a class="prev" onclick="plusSlides(-1,'mySlides6')">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1,'mySlides6')">&#10095;</a>
+                               
+
+                        
+                        <div class="modal-info">
+                            <div class="modal-details">
+                            </div>
+                        </div>
+                        <span class="close" onclick="closeModal6()">&times;</span>
+                      </div>
+                    </div>
+                </div>
+                
+            
+            
+            
+            
+            
+             <!--Seventh  modal -->
+                <div class="exper-details">
+                        <div class="exper-title"></div>
+                        <div class="exper-info"></div>
+                    </div>
+              
+                <div id="myModal7" class="modal">
+                    <div class="modal-content">
+
+              <!--SLIDE 1-->
+                        <div class="slideshow-container">
+                            <div class="mySlides7 fade">
+                            <div class="numbertext"><h4 style="background-color:Black;">&nbsp 07.10.20 &nbsp<p>&nbsp Title Here &nbsp</p> </h4></div>
+                                
+                                <img src="First_IMG_LINK" style="width:100%" />
+                                  <div class="overlay"> <h4><p>Voller Gewinn opened at... a London Fashion Week private showcase at the OXO Tower, showcasing exclusive pieces from the wolf collection</p></h4> </div>
+                            </div>
+              <!--SLIDE 2-->
+                            <div class="mySlides7 fade">
+                            <div class="numbertext"><h4 style="background-color:Black;">&nbsp 07.10.20 &nbsp<p>&nbsp Title Here &nbsp</p> </h4></div>
+                                
+                                <img src="Second_img_link" style="width:100%" />
+                                    <div class="overlay"> <h4><p>Voller Gewinn opened at... a London Fashion Week private showcase at the OXO Tower, showcasing exclusive pieces from the wolf collection</p></h4>  </div>
+                            </div>
+                <!--SLIDE 3-->
+                            <div class="mySlides7 fade">
+                              <div class="numbertext"><h4 style="background-color:Black;">&nbsp 07.10.20 &nbsp<p>&nbsp Title Here &nbsp</p> </h4></div>
+                                
+                                <img src="Third_img_link" style="width:100%"/>
+                              <div class="overlay"> <h4><p>Voller Gewinn opened at... a London Fashion Week private showcase at the OXO Tower, showcasing exclusive pieces from the wolf collection</p></h4>  </div>
+                            </div>
+                           
+                            
+
+                            <a class="prev" onclick="plusSlides(-1,'mySlides7')">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1,'mySlides7')">&#10095;</a>
+                               
+
+                        
+                        <div class="modal-info">
+                            <div class="modal-details">
+                            </div>
+                        </div>
+                        <span class="close" onclick="closeModal7()">&times;</span>
+                      </div>
+                    </div>
+                </div>
+                
+            
+            
+            
+            
+            
+            
+             <!--Eighth  modal -->
+                <div class="exper-details">
+                        <div class="exper-title"></div>
+                        <div class="exper-info"></div>
+                    </div>
+              
+                <div id="myModal8" class="modal">
+                    <div class="modal-content">
+
+              <!--SLIDE 1-->
+                        <div class="slideshow-container">
+                            <div class="mySlides8 fade">
+                            <div class="numbertext"><h4 style="background-color:Black;">&nbsp 08.10.20 &nbsp<p>&nbsp Title HERE &nbsp</p> </h4></div>
+                                
+                                <img src="First_img_link" style="width:100%" />
+                                  <div class="overlay"> <h4><p>Voller Gewinn opened at... a London Fashion Week private showcase at the OXO Tower, showcasing exclusive pieces  from the wolf collection</p></h4> </div>
+                            </div>
+              <!--SLIDE 2-->
+                            <div class="mySlides8 fade">
+                            <div class="numbertext"><h4 style="background-color:Black;">&nbsp 08.10.20 &nbsp<p>&nbsp Title HERE &nbsp</p> </h4></div>
+                                
+                                <img src="Second_img_link" style="width:100%" />
+                                    <div class="overlay"> <h4><p>Voller Gewinn opened at... a London Fashion Week private showcase at the OXO Tower, showcasing exclusive pieces  from the wolf collection</p></h4>  </div>
+                            </div>
+                <!--SLIDE 3-->
+                            <div class="mySlides8 fade">
+                              <div class="numbertext"><h4 style="background-color:Black;">&nbsp 08.10.20 &nbsp<p>&nbsp Title HERE &nbsp</p> </h4></div>
+                                
+                                <img src="Third_img_link" style="width:100%"/>
+                              <div class="overlay"> <h4><p>Voller Gewinn opened at... a London Fashion Week private showcase at the OXO Tower, showcasing exclusive pieces from the wolf collection</p></h4>  </div>
+                            </div>
+                           
+                            
+
+                            <a class="prev" onclick="plusSlides(-1,'mySlides8')">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1,'mySlides8')">&#10095;</a>
+                               
+
+                        
+                        <div class="modal-info">
+                            <div class="modal-details">
+                            </div>
+                        </div>
+                        <span class="close" onclick="closeModal8()">&times;</span>
+                      </div>
+                    </div>
+                </div>
+                
+            
+            
+            
+            
+            
+              <!--Ninth modal -->
+                <div class="exper-details">
+                        <div class="exper-title"></div>
+                        <div class="exper-info"></div>
+                    </div>
+              
+                <div id="myModal9" class="modal">
+                    <div class="modal-content">
+
+              <!--SLIDE 1-->
+                        <div class="slideshow-container">
+                            <div class="mySlides9 fade">
+                            <div class="numbertext"><h4 style="background-color:Black;">&nbsp 17.02.19 &nbsp<p>&nbsp Title HERE &nbsp</p> </h4></div>
+                                
+                                <img src="First_img_link" style="width:100%" />
+                                  <div class="overlay Tbox"> <h4><p>Voller Gewinn opened at... a London Fashion Week private showcase at the OXO Tower, showcasing exclusive pieces from the wolf collection</p></h4> </div>
+                            </div>
+              <!--SLIDE 2-->
+                            <div class="mySlides9 fade">
+                            <div class="numbertext"><h4 style="background-color:Black;">&nbsp 17.02.19 &nbsp<p>&nbsp Title HERE &nbsp</p> </h4></div>
+                                
+                                <img src="Second_link_here" style="width:100%" />
+                                    <div class="overlay Tbox"> <h4><p>Voller Gewinn opened at... a London Fashion Week private showcase at the OXO Tower, showcasing exclusive pieces from the wolf collection</p></h4>  </div>
+                            </div>
+                <!--SLIDE 3-->
+                            <div class="mySlides9 fade">
+                              <div class="numbertext"><h4 style="background-color:Black;">&nbsp 17.02.19 &nbsp<p>&nbsp Title HERE &nbsp</p> </h4></div>
+                                
+                                <img src="Third_link_here" style="width:100%"/>
+                              <div class="overlay Tbox"> <h4><p>Voller Gewinn opened at... a London Fashion Week private showcase at the OXO Tower, showcasing exclusive pieces from the wolf collection</p></h4>  </div>
+                            </div>
+                           
+                            
+
+                            <a class="prev" onclick="plusSlides(-1,'mySlides9')">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1,'mySlides9')">&#10095;</a>
+                               
+
+                        
+                        <div class="modal-info">
+                            <div class="modal-details">
+                            </div>
+                        </div>
+                        <span class="close" onclick="closeModal9()">&times;</span>
+                      </div>
+                    </div>
+                </div>
+            
+            
+            
+<!--SLIDESHOW-->
+<script>
+
+
+function openModal() {
+document.getElementById("myModal").style.display = "block";
+document.body.style.overflow= "Hidden";
+}
+
+
+
+function openModal2() {
+document.getElementById("myModal2").style.display = "block";
+document.body.style.overflow= "Hidden";
+}
+
+
+
+function openModal3() {
+document.getElementById("myModal3").style.display = "block";
+document.body.style.overflow= "Hidden";
+}
+
+
+function openModal4() {
+document.getElementById("myModal4").style.display = "block";
+document.body.style.overflow= "Hidden";
+}
+
+function openModal5() {
+document.getElementById("myModal5").style.display = "block";
+document.body.style.overflow= "Hidden";
+}
+
+
+function openModal6() {
+document.getElementById("myModal6").style.display = "block";
+document.body.style.overflow= "Hidden";
+}
+
+
+function openModal7() {
+document.getElementById("myModal7").style.display = "block";
+document.body.style.overflow= "Hidden";
+}
+
+
+function openModal8() {
+document.getElementById("myModal8").style.display = "block";
+document.body.style.overflow= "Hidden";
+}
+
+
+function openModal9() {
+document.getElementById("myModal9").style.display = "block";
+document.body.style.overflow= "Hidden";
+}
+
+
+
+
+
+  var slideIndex = 1;
+showSlides(slideIndex, "mySlides");
+showSlides(slideIndex, "mySlides2");
+showSlides(slideIndex, "mySlides3");
+showSlides(slideIndex, "mySlides4");
+showSlides(slideIndex, "mySlides5");
+showSlides(slideIndex, "mySlides6");
+showSlides(slideIndex, "mySlides7");
+showSlides(slideIndex, "mySlides8");
+showSlides(slideIndex, "mySlides9");
+
+
+    function plusSlides(n, slide) {
+        showSlides(slideIndex += n, slide);
+    }
+
+    function currentSlide(n, slide) {
+        showSlides(slideIndex = n, slide);
+    }
+
+function showSlides(n, slide ) {
+        var i;
+        var slides = document.getElementsByClassName(slide);
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+            
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        //dots[slideIndex - 1].className += " active";
+        
+    }
+    
+
+    /** button modal**/
+//var modalBtns = [...document.querySelectorAll(".overlay")];
+ //   modalBtns.forEach(function (btn) {
+//        btn.onclick = function () {
+ //           var modal = btn.getAttribute('data-modal');
+
+ //          document.getElementByClassName(modal).style.display = "block";
+         //  document.body.style.overflow= "hidden";
+ //       }
+ //   });
+
+ 
+
+    var closeBtns = [...document.querySelectorAll(".close")];
+    closeBtns.forEach(function (btn) {
+        btn.onclick = function () {
+            var modal = btn.closest('.modal');
+            modal.style.display = "none";
+            document.body.style.overflow= "auto";
+            
+            
+        }
+    });
+
+    window.onclick = function (event) {
+        if (event.target.className === "modal") {
+            event.target.style.display = "none";
+            document.body.style.overflow= "auto";
+              
+            
+        }
+    }
+
+</script>
+
+
+
+
+</html>
